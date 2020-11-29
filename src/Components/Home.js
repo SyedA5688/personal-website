@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div style={{ justifyContent: "center", alignItems: "center" }} >
+    <div className="HomeScreenContainer" >
       <h2>Home Screen</h2>
     </div>
   )

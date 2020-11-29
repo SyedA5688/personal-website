@@ -1,7 +1,11 @@
 .App {
   text-align: center;
+  background: rgb(239,239,239);
+  background: radial-gradient(circle, rgba(239,239,239,1) 18%, rgba(171,171,171,1) 100%);
 }
 
-
+/* Try
+background: rgb(138,179,218);
+background: radial-gradient(circle, rgba(138,179,218,1) 18%, rgba(109,138,195,1) 100%); */
 
 
