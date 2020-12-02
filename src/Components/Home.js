@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import portrait_no_bg from '../images/portrait_no_bg.png';
 import githubIcon from '../images/GitHub-Mark-64px.png';
 import linkedInIcon from '../images/linkedin.png';
+// import bkgrdImg from '../images/dark_bkgrd.png';
 
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/syed-rizvi-9a406719a" target="_blank" rel="noreferrer" ><img src={linkedInIcon} alt="LinkedIn" height="50px" ></img></a>
           </div>
         </Col>
-        <Col xs={12} sm={12} md={6} lg={6} xl={6} className="ImageColumn" >
+        <Col xs={12} sm={12} md={6} lg={6} xl={6} className="ImageColumn" > {/* style={{ background: `url(${bkgrdImg})`}} */}
           <img src={portrait_no_bg} alt="Syed Rizvi" width="90%" ></img>
         </Col>
       </Row>
