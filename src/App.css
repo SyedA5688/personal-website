@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background: rgb(230, 230, 230);
+  overflow-x: hidden;
 }
 
 
