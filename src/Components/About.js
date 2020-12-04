@@ -19,14 +19,14 @@ export default function About() {
             the applications of artificial intelligence and computer vision on medical image data.
           </p>
           <p>
-            I am proficient in Python, Pytorch, Keras, Numpy, Pandas, machine learning utility libraries, 
+            I am proficient in Python, Pytorch, Keras, machine learning utility libraries, 
             and Labelbox image annotation projects. <br/>
             My past experience includes mobile and web design with React, React Native, and Javascript, 
             as well as programming with C++ and Java. <br/>
           </p>
           <h1>Contact Information</h1>
           <p>
-            Name: Syed Rizvi <br/>
+            Name: Syed Asad Rizvi <br/>
             Inquiries: asad5688@gmail.com <br/>
             Location: Houston, TX
           </p>

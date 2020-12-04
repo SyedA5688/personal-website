@@ -12,7 +12,7 @@ export default function Home() {
       <Row>
         <Col xs={12} sm={12} md={6} lg={6} xl={6} className="DescColumn" >
           <div style={{ borderBottomWidth: 2, borderBottomColor: "grey", borderBottomStyle: "solid" }} >
-            <p style={{ fontSize: 70, fontWeight: "bold", fontFamily: "Castoro" }} >Syed Rizvi</p>
+            <p style={{ fontSize: 70, fontWeight: "bold", fontFamily: "Castoro" }} >Syed Asad Rizvi</p>
             <p>
               Computer Science undergraduate at the University of Houston,
               machine learning research assistant, and technology enthusiast.
