@@ -29,7 +29,7 @@ export default function Projects() {
             Developed a custom interface using ReactJS and the Labelbox Javascript API to allow for rapid grid label
             application on medical images.
           </p>
-          <a href="https://github.com/SyedA5688/labelbox-custom-interface" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View on GitHub</Button></a>
+          <a href="https://github.com/SyedA5688/labelbox-custom-interface" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -46,7 +46,7 @@ export default function Projects() {
             Long Short-Term Memory model designed to predict the stock prices of NASDAQ companies. Developed using Python and Keras,
             hosted on Herkou.
           </p>
-          <a href="https://github.com/SyedA5688/predictive-stock-price-model" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View on GitHub</Button></a>
+          <a href="https://github.com/SyedA5688/predictive-stock-price-model" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -64,7 +64,7 @@ export default function Projects() {
             Seattle. Data is reconstructed by an encoder-decoder framework, and anomalies are detected  
             based off of MAE loss and chunk data evaluation.
           </p>
-          <a href="https://github.com/SyedA5688/AWS-ML-Hackathon" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View on GitHub</Button></a>
+          <a href="https://github.com/SyedA5688/AWS-ML-Hackathon" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -80,7 +80,7 @@ export default function Projects() {
             Mobile application using image recognition to log, track, and display consumed micronutrients. Developed using React Native/Expo, 
             IBM Watson image recognition, Azure bot service, and the Edamam Nutrition API.
           </p>
-          <a href="https://github.com/SyedA5688/NutrientView" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View on GitHub</Button></a>
+          <a href="https://github.com/SyedA5688/NutrientView" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -96,7 +96,7 @@ export default function Projects() {
             Hurricane awareness and tracking mobile application developed using React Native/Expo and the AerisWeather API. Includes informational
             pages and quizzes, landing points of previous hurricanes, and a location tracking system for hurricane alerts.
           </p>
-          <a href="https://github.com/SyedA5688/StormReady" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View on GitHub</Button></a>
+          <a href="https://github.com/SyedA5688/StormReady" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -112,7 +112,7 @@ export default function Projects() {
             Web application for income and expense tracking aimed at increasing personal financial awareness and responsibility.
             Developed using Python, Flask, and SQL Alchemy.
           </p>
-          <a href="https://github.com/SyedA5688/FinVisor" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View on GitHub</Button></a>
+          <a href="https://github.com/SyedA5688/FinVisor" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

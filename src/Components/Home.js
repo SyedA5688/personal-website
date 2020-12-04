@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import portrait_no_bg from '../images/portrait_no_bg.png';
+import portrait_no_bg from '../images/professional_portrait.png';
 import githubIcon from '../images/GitHub-Mark-64px.png';
 import linkedInIcon from '../images/linkedin.png';
 // import bkgrdImg from '../images/dark_bkgrd.png';
