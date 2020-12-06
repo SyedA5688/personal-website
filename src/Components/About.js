@@ -16,7 +16,7 @@ export default function About() {
             I am an aspiring machine learning developer and a member of the Houston Ubiquitous 
             Learning Algorithms (HULA) research laboratory based in Houston, TX. As I pursue a
             Bachelor of Science in Computer Science from the University of Houston, I am researching 
-            the applications of artificial intelligence and computer vision on medical image data.
+            applications of artificial intelligence and computer vision on medical image data.
           </p>
           <p>
             I am proficient in Python, Pytorch, Keras, machine learning utility libraries, 

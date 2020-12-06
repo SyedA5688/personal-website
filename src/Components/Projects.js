@@ -26,7 +26,7 @@ export default function Projects() {
         >
           <h3 className="vertical-timeline-element-title">Labelbox Custom Medical Image Annotation Interface</h3>
           <p style={{ marginBottom: 10 }} >
-            Developed a custom interface using ReactJS and the Labelbox Javascript API to allow for rapid grid label
+            Custom image annotation interface using ReactJS and the Labelbox Javascript API to allow for rapid grid label
             application on medical images.
           </p>
           <a href="https://github.com/SyedA5688/labelbox-custom-interface" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
