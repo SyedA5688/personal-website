@@ -68,8 +68,8 @@ export default function Projects() {
           <h3 className="vertical-timeline-element-title">Autoencoder Anomaly Detection</h3>
           <p style={{ marginBottom: 10 }} >
             Machine learning model aimed at detecting anomalies in sensor data from environmental conservatories in 
-            Seattle. Data is reconstructed by an encoder-decoder framework, and anomalies are detected  
-            based off of MAE loss and chunk data evaluation. <br/>
+            Seattle. Data is reconstructed by an autoencoder network and anomalies are then detected  
+            based off MAE loss and segment evaluation. <br/>
             Developed using AWS Sagemaker and Jupyter Notebooks.
           </p>
           <a href="https://github.com/SyedA5688/AWS-ML-Hackathon" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
