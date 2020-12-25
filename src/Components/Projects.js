@@ -33,8 +33,11 @@ export default function Projects() {
         >
           <h3 className="vertical-timeline-element-title">Labelbox Custom Medical Image Annotation Interface</h3>
           <p style={{ marginBottom: 10 }} >
-            Custom image annotation interface allowing for rapid grid label application on medical images. <br/>
-            Developed using ReactJS and the Labelbox Javascript API
+            Custom image annotation interface allowing for rapid grid label application on medical images. Labels are
+            saved to Labelbox system through integration with Javascript API.
+          </p>
+          <p>
+            Developed using ReactJS and the Labelbox Javascript API. <br/><br/>
           </p>
           <a href="https://github.com/SyedA5688/labelbox-custom-interface" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
@@ -50,8 +53,12 @@ export default function Projects() {
         >
           <h3 className="vertical-timeline-element-title">LSTM Stock Price Predictor</h3>
           <p style={{ marginBottom: 10 }} >
-            Long Short-Term Memory model designed to predict the stock prices of NASDAQ companies. <br/> 
-            Developed using Python and Keras, hosted on Herkou.
+            Long Short-Term Memory model designed to predict the stock prices of NASDAQ companies. Network
+            takes in stock information from previous month and outputs predicted opening price for the next
+            day.
+          </p>
+          <p>
+            Developed using Python and Keras, hosted on Herkou. <br/><br/>
           </p>
           <a href="https://github.com/SyedA5688/predictive-stock-price-model" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
@@ -69,8 +76,10 @@ export default function Projects() {
           <p style={{ marginBottom: 10 }} >
             Machine learning model aimed at detecting anomalies in sensor data from environmental conservatories in 
             Seattle. Data is reconstructed by an autoencoder network and anomalies are then detected  
-            based off MAE loss and segment evaluation. <br/>
-            Developed using AWS Sagemaker and Jupyter Notebooks.
+            based off MAE loss and segment analysis. 
+          </p>
+          <p>
+            Developed using AWS Sagemaker and Jupyter Notebooks. <br/><br/>
           </p>
           <a href="https://github.com/SyedA5688/AWS-ML-Hackathon" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
@@ -86,9 +95,13 @@ export default function Projects() {
         >
           <h3 className="vertical-timeline-element-title">NutrientView Mobile App</h3>
           <p style={{ marginBottom: 10 }} >
-            Mobile application using image recognition to log, track, and display consumed micronutrients. <br/>
+            Mobile application using image recognition to log, track, and display consumed micronutrients.
+            Previous nutrient profiles available in calendar view page through integration with Firebase 
+            database services.
+          </p>
+          <p>
             Developed using React Native/Expo, IBM Watson image recognition, Azure bot service, and the 
-            Edamam Nutrition API.
+            Edamam Nutrition API. <br/><br/>
           </p>
           <a href="https://github.com/SyedA5688/NutrientView" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
@@ -104,9 +117,12 @@ export default function Projects() {
         >
           <h3 className="vertical-timeline-element-title">StormReady Mobile App</h3>
           <p style={{ marginBottom: 10 }} >
-            Hurricane awareness and preparation mobile application. Includes informational pages and quizzes, landing points of previous hurricanes, 
-            and a location tracking system for hurricane alerts. <br/>
-            Developed using React Native/Expo and the AerisWeather API.
+            Hurricane awareness and preparation mobile application. Includes informational pages and quizzes, 
+            landing points of previous hurricanes, and a location tracking system with push notifications for 
+            regional hurricane alerts.
+          </p>
+          <p>
+            Developed using React Native/Expo and the AerisWeather API. <br/><br/>
           </p>
           <a href="https://github.com/SyedA5688/StormReady" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
@@ -122,8 +138,11 @@ export default function Projects() {
         >
           <h3 className="vertical-timeline-element-title">FinVisor Financial App</h3>
           <p style={{ marginBottom: 10 }} >
-            Web application for income and expense tracking aimed at increasing personal financial awareness and responsibility. <br/>
-            Developed using Python, Flask, and SQL Alchemy.
+            Web application for income and expense tracking aimed at increasing personal financial awareness 
+            and responsibility. Integrated with an SQL database to record personal transaction history of users.
+          </p>
+          <p>
+            Developed using Python, Flask, and SQL Alchemy. <br/><br/>
           </p>
           <a href="https://github.com/SyedA5688/FinVisor" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
