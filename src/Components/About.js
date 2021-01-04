@@ -27,7 +27,7 @@ export default function About() {
           <h1>Contact Information</h1>
           <p>
             Name: Syed Asad Rizvi <br/>
-            Inquiries: asad5688@gmail.com <br/>
+            Inquiries: asad5688 [at] gmail [dot] com <br/>
             Location: Houston, TX
           </p>
         </Col>
