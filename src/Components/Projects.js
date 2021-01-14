@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import AdbOutlinedIcon from '@material-ui/icons/AdbOutlined';
 import CropOriginalIcon from '@material-ui/icons/CropOriginal';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import EcoIcon from '@material-ui/icons/Eco';
@@ -22,6 +23,26 @@ export default function Projects() {
       </div>
       
       <VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: '#face8c', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
+          contentArrowStyle={{ borderRight: '7px solid  #face8c' }}
+          date="September 2020"
+          position={"right"}
+          iconStyle={{ background: '#face8c', color: '#000' }}
+          icon={<AdbOutlinedIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">AWS Lex Bot Generator</h3>
+          <p style={{ marginBottom: 10 }} >
+            AWS pipeline for generating AWS Lex AI-powered chatbots from inputed configuration files. Files are sent to an 
+            S3 bucket in the cloud which then triggers lambda functions that start bot generation and build process.
+          </p>
+          <p>
+            Developed using AWS Lex, Lambda, DynamoDB, S3, and React. <br/><br/>
+          </p>
+          <a href="https://github.com/SyedA5688/labelbox-custom-interface" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
+        </VerticalTimelineElement>
+        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#cfe8ff', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
