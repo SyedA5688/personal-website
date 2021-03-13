@@ -42,8 +42,8 @@ export default function Projects() {
           <h3 className="vertical-timeline-element-title">AWS Lex Bot Generator</h3>
           <p style={{ marginBottom: 10 }} >
             AWS pipeline for generating AWS Lex AI-powered chatbots from inputed configuration files. 
-            Files are sent to an S3 bucket in the cloud which then triggers lambda functions that 
-            start bot generation and build process.
+            Files are sent to an AWS S3 bucket which triggers lambda functions that start bot generation 
+            process. Placed 1st in HP and AWS Botathon.
           </p>
           <img src={botathon_certificate_img} alt="HP Botathon Certificate" width="80%" className="ProjectImg" ></img>
           <p>

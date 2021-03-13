@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import portrait from '../images/about_portrait.jpg'
+import portrait from '../images/portrait.jpg'
 
 
 export default function About() {
@@ -8,7 +8,7 @@ export default function About() {
     <Container>
       <Row>
         <Col xs={12} sm={12} md={4} lg={4} xl={4} className="AboutImgColumn" >
-          <img src={portrait} alt="Portrait" width="90%" className="AboutImg" ></img>
+          <img src={portrait} alt="Portrait" width="95%" className="AboutImg" ></img>
         </Col>
         <Col xs={12} sm={12} md={8} lg={8} xl={8} className="AboutColumn" >
           <h1>About Me</h1>
