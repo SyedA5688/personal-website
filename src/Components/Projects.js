@@ -32,11 +32,11 @@ export default function Projects() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: '#face8c', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
-          contentArrowStyle={{ borderRight: '7px solid  #face8c' }}
+          contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
+          contentArrowStyle={{ borderRight: '7px solid  khaki' }}
           date="September 2020"
           position={"right"}
-          iconStyle={{ background: '#face8c', color: '#000' }}
+          iconStyle={{ background: 'khaki', color: '#000' }}
           icon={<AdbOutlinedIcon />}
         >
           <h3 className="vertical-timeline-element-title">AWS Lex Bot Generator</h3>
@@ -75,11 +75,11 @@ export default function Projects() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: '#face8c', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
-          contentArrowStyle={{ borderRight: '7px solid  #face8c' }}
+          contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
+          contentArrowStyle={{ borderRight: '7px solid  khaki' }}
           date="September 2020"
           position={"right"}
-          iconStyle={{ background: '#face8c', color: '#000' }}
+          iconStyle={{ background: 'khaki', color: '#000' }}
           icon={<TrendingUpIcon />}
         >
           <h3 className="vertical-timeline-element-title">LSTM Stock Price Predictor</h3>
@@ -96,11 +96,11 @@ export default function Projects() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: '#face8c', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
-          contentArrowStyle={{ borderRight: '7px solid  #face8c' }}
+          contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
+          contentArrowStyle={{ borderRight: '7px solid  khaki' }}
           date="August 2020"
           position={"right"}
-          iconStyle={{ background: '#face8c', color: '#000' }}
+          iconStyle={{ background: 'khaki', color: '#000' }}
           icon={<EcoIcon />}
         >
           <h3 className="vertical-timeline-element-title">Autoencoder Anomaly Detection</h3>
