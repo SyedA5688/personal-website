@@ -1,12 +1,11 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import AdbOutlinedIcon from '@material-ui/icons/AdbOutlined';
 import CropOriginalIcon from '@material-ui/icons/CropOriginal';
-import TrendingUpIcon from '@material-ui/icons/TrendingUp';
-import EcoIcon from '@material-ui/icons/Eco';
-import PhotoCameraIcon from '@material-ui/icons/PhotoCamera';
-import CloudQueueIcon from '@material-ui/icons/CloudQueue';
+import SearchIcon from '@material-ui/icons/Search';
 import LocalAtmIcon from '@material-ui/icons/LocalAtm';
+import { BiBot, BiLineChart } from 'react-icons/bi';
+import { AiOutlineCamera } from 'react-icons/ai';
+import { IoThunderstormOutline } from 'react-icons/io5';
 import botathon_certificate_img from '../images/projects/HP_botathon_certificate.png';
 import labelbox_interface_img from '../images/projects/labelbox_interface.png';
 import stock_graph_img from '../images/projects/stock_graph.png';
@@ -21,7 +20,7 @@ import 'react-vertical-timeline-component/style.min.css';
 export default function Projects() {
   return (
     <div className="ProjectScreenContainer" >
-      <div style={{ borderBottomWidth: 1, borderBottomStyle: "solid", borderBottomColor: "black", width: "75vw" }} >
+      <div style={{ borderBottomWidth: 2, borderBottomStyle: "solid", borderBottomColor: "#424242", width: "75vw" }} >
         <h1>Independent Projects</h1>
         <div style={{ width: '100%', marginTop: '5vh' , display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }} >
           <h3 style={{ fontFamily: 'Castoro', marginLeft: '10vw' }} >Mobile and Web Design</h3>
@@ -29,15 +28,15 @@ export default function Projects() {
         </div>
       </div>
       
-      <VerticalTimeline>
+      <VerticalTimeline className="vertical-timeline-custom-line" >
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
-          contentArrowStyle={{ borderRight: '7px solid  khaki' }}
+          contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
+          contentArrowStyle={{ borderRight: '10px solid  #424242' }}
           date="September 2020"
           position={"right"}
           iconStyle={{ background: 'khaki', color: '#000' }}
-          icon={<AdbOutlinedIcon />}
+          icon={<BiBot />}
         >
           <h3 className="vertical-timeline-element-title">AWS Lex Bot Generator</h3>
           <p style={{ marginBottom: 10 }} >
@@ -54,8 +53,8 @@ export default function Projects() {
         
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: '#cfe8ff', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
-          contentArrowStyle={{ borderRight: '7px solid  #cfe8ff' }}
+          contentStyle={{ background: '#cfe8ff', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
+          contentArrowStyle={{ borderRight: '10px solid  #424242' }}
           date="November 2020"
           position={"left"}
           iconStyle={{ background: '#cfe8ff', color: '#000' }}
@@ -75,12 +74,12 @@ export default function Projects() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
-          contentArrowStyle={{ borderRight: '7px solid  khaki' }}
+          contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
+          contentArrowStyle={{ borderRight: '10px solid #424242' }}
           date="September 2020"
           position={"right"}
           iconStyle={{ background: 'khaki', color: '#000' }}
-          icon={<TrendingUpIcon />}
+          icon={<BiLineChart />}
         >
           <h3 className="vertical-timeline-element-title">LSTM Stock Price Predictor</h3>
           <p style={{ marginBottom: 10 }} >
@@ -96,12 +95,12 @@ export default function Projects() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
-          contentArrowStyle={{ borderRight: '7px solid  khaki' }}
+          contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
+          contentArrowStyle={{ borderRight: '10px solid #424242' }}
           date="August 2020"
           position={"right"}
           iconStyle={{ background: 'khaki', color: '#000' }}
-          icon={<EcoIcon />}
+          icon={<SearchIcon />}
         >
           <h3 className="vertical-timeline-element-title">Autoencoder Anomaly Detection</h3>
           <p style={{ marginBottom: 10 }} >
@@ -118,12 +117,12 @@ export default function Projects() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: '#cfe8ff', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
-          contentArrowStyle={{ borderRight: '7px solid  #cfe8ff' }}
+          contentStyle={{ background: '#cfe8ff', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
+          contentArrowStyle={{ borderRight: '10px solid  #424242' }}
           date="June - July 2020"
           position={"left"}
           iconStyle={{ background: '#cfe8ff', color: '#000' }}
-          icon={<PhotoCameraIcon />}
+          icon={<AiOutlineCamera />}
         >
           <h3 className="vertical-timeline-element-title">NutrientView Mobile App</h3>
           <p style={{ marginBottom: 10 }} >
@@ -141,12 +140,12 @@ export default function Projects() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: '#cfe8ff', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
-          contentArrowStyle={{ borderRight: '7px solid  #cfe8ff' }}
+          contentStyle={{ background: '#cfe8ff', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
+          contentArrowStyle={{ borderRight: '10px solid  #424242' }}
           date="May - June 2020"
           position={"left"}
           iconStyle={{ background: '#cfe8ff', color: '#000' }}
-          icon={<CloudQueueIcon />}
+          icon={<IoThunderstormOutline />}
         >
           <h3 className="vertical-timeline-element-title">StormReady Mobile App</h3>
           <p style={{ marginBottom: 10 }} >
@@ -163,8 +162,8 @@ export default function Projects() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: '#afe0af', color: '#000', fontFamily: 'Castoro', borderWidth: 5, borderStyle: "solid", borderColor: "white" }}
-          contentArrowStyle={{ borderRight: '7px solid  #afe0af' }}
+          contentStyle={{ background: '#afe0af', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
+          contentArrowStyle={{ borderRight: '10px solid  #424242' }}
           date="December 2019"
           position={"left"}
           iconStyle={{ background: '#afe0af', color: '#000' }}

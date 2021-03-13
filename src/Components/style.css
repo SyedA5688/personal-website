@@ -77,18 +77,8 @@ p {
 
 
 /* About Screen */
-.AboutScreenContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 90vh;
-}
-
 .AboutImgColumn {
-  height: 75vh;
-  margin-bottom: 15vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,7 +89,7 @@ p {
 .AboutImg {
   border-width: 7px;
   border-style: solid;
-  border-color: saddlebrown;
+  border-color: #785027;
 }
 
 .AboutColumn {
@@ -110,6 +100,19 @@ p {
   align-items: flex-start;
   text-align: start;
   padding: 15px;
+}
+
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: #424242;
+}
+
+/* Icon container's border */
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #424242, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #424242, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 
