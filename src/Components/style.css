@@ -123,6 +123,12 @@ p {
   width: 100%;
 }
 
+.ProjectImg {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
 
 /* Research Screen */
 .ResearchScreenContainer {
