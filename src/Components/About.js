@@ -14,7 +14,7 @@ import Typography from '@material-ui/core/Typography';
 export default function About() {
   return (
     <Container>
-      <Row  >
+      <Row style={{ marginBottom: '1vh' }} >
         <Col xs={12} sm={12} md={4} lg={4} xl={4} className="AboutImgColumn" >
           <img src={portrait} alt="Portrait" width="95%" className="AboutImg" ></img>
         </Col>
