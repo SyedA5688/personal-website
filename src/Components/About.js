@@ -14,7 +14,7 @@ import Typography from '@material-ui/core/Typography';
 export default function About() {
   return (
     <Container>
-      <Row style={{ marginBottom: '1vh' }} >
+      <Row style={{ marginBottom: '2vh' }} >
         <Col xs={12} sm={12} md={4} lg={4} xl={4} className="AboutImgColumn" >
           <img src={portrait} alt="Portrait" width="95%" className="AboutImg" ></img>
         </Col>
@@ -42,11 +42,30 @@ export default function About() {
       </Row>
       <Row>
         <Col sm={12} md={12} lg={12} xl={12} >
-          <div style={{ borderBottomWidth: 1, borderBottomStyle: "solid", borderBottomColor: "black", width: "100%", display: 'flex', flexDirection: 'column', alignItems: 'center' }} >
-            <h1>Activities Timeline</h1>
+          <div style={{ borderBottomWidth: 1, borderBottomStyle: "solid", borderBottomColor: "black", width: "100%", display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }} >
+            <h1>Activities Timeline {"{"}</h1>
+            <div style={{ marginLeft: '10px', marginRight: '10px' }} >
+              <p style={{ margin: 0, padding: 0, color: '#3f51b5', fontWeight: 'bold' }} >Machine Learning, Data Science</p>
+              <p style={{ margin: 0, padding: 0, color: '#f50057', fontWeight: 'bold' }} >Web Design, Cloud Services, Other</p>
+            </div>
+            <h1>{"}"}</h1>
           </div>
 
           <div style={{ marginBottom: '15vh' }} >
+            <TimelineItem>
+              <TimelineContent>
+                <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
+                  Performed correlation analysis on wearable device health informatics datasets under the mentorshop of Dr. Syed Abdul Shabbir.
+                </p>
+              </TimelineContent>
+              <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
+              <TimelineOppositeContent>
+                <Typography color="textSecondary" style={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
+                  March 2021
+                </Typography>
+              </TimelineOppositeContent>
+            </TimelineItem>
+
             <Timeline>
               <TimelineItem>
                 <TimelineOppositeContent>
@@ -55,7 +74,7 @@ export default function About() {
                 <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
                 <TimelineContent>
                   <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                    Delivered presentation to 100 medical professionals at AI in Nephropathology Workshop in Amsterdam
+                    Delivered presentation to 100 medical professionals at the AI in Nephropathology Workshop in Amsterdam
                   </p>
                 </TimelineContent>
               </TimelineItem>
