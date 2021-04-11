@@ -22,7 +22,7 @@ export default function Home() {
             </p>
           </div>
           <div className="IconsContainer" >
-            <a href="http://github.com/SyedA5688" target="_blank" rel="noreferrer" ><img src={githubIcon} alt="GitHub" height="50px" ></img></a>
+            <a href="https://github.com/SyedA5688" target="_blank" rel="noreferrer" ><img src={githubIcon} alt="GitHub" height="50px" ></img></a>
             <a href="https://linkedin.com/in/syed-a-rizvi-01" target="_blank" rel="noreferrer" ><img src={linkedInIcon} alt="LinkedIn" height="50px" ></img></a>
           </div>
         </Col>
