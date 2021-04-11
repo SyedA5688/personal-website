@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           <div className="IconsContainer" >
             <a href="http://github.com/SyedA5688" target="_blank" rel="noreferrer" ><img src={githubIcon} alt="GitHub" height="50px" ></img></a>
-            <a href="https://www.linkedin.com/in/syed-rizvi-9a406719a" target="_blank" rel="noreferrer" ><img src={linkedInIcon} alt="LinkedIn" height="50px" ></img></a>
+            <a href="https://linkedin.com/in/syed-a-rizvi-01" target="_blank" rel="noreferrer" ><img src={linkedInIcon} alt="LinkedIn" height="50px" ></img></a>
           </div>
         </Col>
         <Col xs={12} sm={12} md={6} lg={6} xl={6} className="ImageColumn" > {/* style={{ background: `url(${bkgrdImg})`}} */}
