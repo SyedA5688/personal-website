@@ -33,7 +33,7 @@ export default function Projects() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
           contentArrowStyle={{ borderRight: '10px solid  #424242' }}
-          date="September 2020"
+          date="January 2021"
           position={"right"}
           iconStyle={{ background: 'khaki', color: '#000' }}
           icon={<BiBot />}
