@@ -14,7 +14,7 @@ import Typography from '@material-ui/core/Typography';
 export default function About() {
   return (
     <Container>
-      <Row style={{ marginBottom: '2vh' }} >
+      <Row style={{ marginBottom: '2vh', borderBottomWidth: 3, borderBottomStyle: 'solid', borderBottomColor: '#785027', borderTopWidth: 3, borderTopStyle: 'solid', borderTopColor: '#785027' }} >
         <Col xs={12} sm={12} md={4} lg={4} xl={4} className="AboutImgColumn" >
           <img src={portrait} alt="Portrait" width="95%" className="AboutImg" ></img>
         </Col>
@@ -40,7 +40,7 @@ export default function About() {
           </p>
         </Col>
       </Row>
-      <Row>
+      <Row style={{ marginTop: '4vh'}} >
         <Col sm={12} md={12} lg={12} xl={12} >
           <div style={{ borderBottomWidth: 1, borderBottomStyle: "solid", borderBottomColor: "black", width: "100%", display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }} >
             <h1>Activities Timeline {"{"}</h1>
