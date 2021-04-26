@@ -82,7 +82,7 @@ export default function About() {
               <TimelineItem>
                 <TimelineContent>
                   <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
-                    Completed Machine Learning MOOC offered by Stanford University on Coursera
+                    Completed Machine Learning certification offered by Stanford University on Coursera
                   </p>
                 </TimelineContent>
                 <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
