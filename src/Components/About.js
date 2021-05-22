@@ -14,7 +14,7 @@ import Typography from '@material-ui/core/Typography';
 export default function About() {
   return (
     <Container>
-      <Row style={{ marginBottom: '2vh', borderBottomWidth: 3, borderBottomStyle: 'solid', borderBottomColor: '#785027', borderTopWidth: 3, borderTopStyle: 'solid', borderTopColor: '#785027' }} >
+      <Row style={{ marginBottom: '2vh', borderBottomWidth: 3, borderBottomStyle: 'solid', borderBottomColor: '#785027' }} >
         <Col xs={12} sm={12} md={4} lg={4} xl={4} className="AboutImgColumn" >
           <img src={portrait} alt="Portrait" width="95%" className="AboutImg" ></img>
         </Col>
@@ -23,7 +23,7 @@ export default function About() {
           <p>
             I am an aspiring machine learning developer and a member of the Houston Ubiquitous 
             Learning Algorithms (HULA) research laboratory based in Houston, TX. As I pursue a
-            Bachelor of Science in Computer Science from the University of Houston, I am researching 
+            B.S. in Computer Science from the University of Houston, I am researching 
             applications of artificial intelligence and computer vision on medical image data.
           </p>
           <p>
@@ -55,7 +55,8 @@ export default function About() {
             <TimelineItem>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
-                  Performed correlation analysis on wearable device health informatics datasets under the mentorshop of Dr. Syed Abdul Shabbir.
+                  Performed correlation analysis and visualization among health informatics datasets taken from wearable devices 
+                  under the mentorshop of Dr. Syed Abdul Shabbir at Taipei Medical University (TMU)
                 </p>
               </TimelineContent>
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
@@ -74,7 +75,8 @@ export default function About() {
                 <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
                 <TimelineContent>
                   <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                    Delivered presentation to 100 medical professionals at the AI in Nephropathology Workshop in Amsterdam
+                    Delivered oral abstract for the MorphSet research project to over 100 medical professionals at the 
+                    AI in Nephropathology Workshop in Amsterdam
                   </p>
                 </TimelineContent>
               </TimelineItem>
@@ -136,8 +138,8 @@ export default function About() {
               <TimelineItem>
                 <TimelineContent>
                   <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
-                    Delivered presentation on IT candidate development in a professional development Workshop
-                    hosted by the Management Information Systems Student Organization
+                    Delivered presentation on IT profile development in a professional development workshop
+                    hosted by the Management Information Systems Student Organization (MISSO) at UH
                   </p>
                 </TimelineContent>
                 <TimelineSeparator><TimelineDot color="secondary" /><TimelineConnector /></TimelineSeparator>
