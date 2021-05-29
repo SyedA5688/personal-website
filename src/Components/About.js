@@ -52,22 +52,35 @@ export default function About() {
           </div>
 
           <div style={{ marginBottom: '15vh' }} >
-            <TimelineItem>
-              <TimelineContent>
-                <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
-                  Performed correlation analysis and visualization among health informatics datasets taken from wearable devices 
-                  under the mentorshop of Dr. Syed Abdul Shabbir at Taipei Medical University (TMU)
-                </p>
-              </TimelineContent>
-              <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
-              <TimelineOppositeContent>
-                <Typography color="textSecondary" style={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                  March 2021
-                </Typography>
-              </TimelineOppositeContent>
-            </TimelineItem>
-
             <Timeline>
+              <TimelineItem>
+                <TimelineOppositeContent>
+                  <Typography color="textSecondary">May-July 2021</Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
+                <TimelineContent>
+                  <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
+                    Intered at Phillips 66 as an Information Technology intern. Trained a domain-specific entity extraction
+                    AI model to extract information from highly variable and unstructured pipeline land contract documents.
+                  </p>
+                </TimelineContent>
+              </TimelineItem>
+
+              <TimelineItem>
+                <TimelineContent>
+                  <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
+                    Performed correlation analysis and visualization among health informatics datasets taken from wearable devices 
+                    under the mentorshop of Dr. Syed Abdul Shabbir at Taipei Medical University (TMU)
+                  </p>
+                </TimelineContent>
+                <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
+                <TimelineOppositeContent>
+                  <Typography color="textSecondary" style={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
+                    March 2021
+                  </Typography>
+                </TimelineOppositeContent>
+              </TimelineItem>
+
               <TimelineItem>
                 <TimelineOppositeContent>
                   <Typography color="textSecondary">March 2021</Typography>
