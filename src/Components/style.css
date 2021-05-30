@@ -36,10 +36,12 @@ p {
 .HomeScreenContainer {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   width: 100vw;
   height: 90vh;
+  padding-left: 12vw;
+  padding-right: 12vw;
 }
 
 .DescColumn p {
@@ -47,12 +49,16 @@ p {
 }
 
 .DescColumn {
-  height: 80vh;
+  height: 90vh;
+  padding-bottom: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   text-align: start;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
 }
 
 .IconsContainer {
@@ -72,7 +78,10 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
 }
 
 
