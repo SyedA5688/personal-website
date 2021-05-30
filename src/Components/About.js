@@ -15,7 +15,7 @@ export default function About() {
   return (
     <Grid container className="AboutPageContainer" >
       <Grid item xs={12} lg={4} className="AboutImgColumn" >
-        <img src={portrait} alt="Portrait" height="85%" className="AboutImg" ></img>
+        <img src={portrait} alt="Portrait" height="80%" className="AboutImg" ></img>
       </Grid>
       <Grid item xs={12} lg={8} className="AboutColumn" >
         <h1>About Me</h1>
@@ -38,6 +38,71 @@ export default function About() {
           Location: Houston, TX
         </p>
       </Grid>
+
+      <Grid item xs={12} className="ExperienceContainer" >
+        <div style={{ borderBottomWidth: 1, borderBottomStyle: "solid", borderBottomColor: "black", width: "100%" }} >
+          <h1>Professional and Research Experience</h1>
+        </div>
+        
+        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
+          <h3>Houston Ubiquitous Learning Algorithms (HULA) Research Laboratory, TX</h3>
+          <p style={{ fontStyle: "italic", margin: 0 }} >Machine Learning Research Assistant</p>
+          <ul style={{ listStyleType: "circle" }} >
+            <li>
+              Submitted paper to the MICCAI conference proposing novel set transformer-inspired architecture for 
+              case-level renal disease classification
+            </li>
+            <li>
+              Delivered oral abstract on a novel case-level classification architecture to over 100 medical 
+              professionals at the AI in Nephropathology Workshop in Amsterdam 2021
+            </li>
+            <li>
+              Developed custom medical image annotation interfaces allowing for fine-grained grid label 
+              application using React and the Labelbox JavaScript API
+            </li>
+            <li>
+              Delivered presentation on custom labeling schemes using LabelBox platform to computer vision 
+              group at the University of Buffalo, NY
+            </li>
+            <li>
+              Assisted in development of novel style initialization technique for smoothing out data
+               distributions in nephropathology datasets using style transfer algorithms
+            </li>
+          </ul>
+        </div>
+
+        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
+          <h3>Phillips 66, Houston, TX</h3>
+          <p style={{ fontStyle: "italic", margin: 0 }} >Information Technology Intern</p>
+          <ul style={{ listStyleType: "circle" }} >
+            <li>
+              Trained a custom AI model for domain-specific entity extraction on highly variable, unstructured pipeline 
+              contract pdf document text.
+            </li>
+            <li>
+              Integrated entity extraction model into existing Azure cloud service pipeline for document tool, extending 
+              team’s capability to more unstructured documents
+            </li>
+          </ul>
+        </div>
+
+        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
+          <h3>Taipei Medical University, Taipei, Taiwan</h3>
+          <p style={{ fontStyle: "italic", margin: 0 }} >Data Analyst Intern (Remote)</p>
+          <ul style={{ listStyleType: "circle" }} >
+            <li>
+              Preprocessed and merged wearable device data measurements taken from 18 Taiwanese patients
+            </li>
+            <li>
+            Performed correlation analysis and visualization between physical activity, circulation, 
+              fatigue, and sleep measurements taken over 9 months</li>
+            <li>
+              Explored time-lag cross correlations among patient data
+            </li>
+          </ul>
+        </div>
+      </Grid>
+
       <Grid item xs={12} className="TimelineContainer" >
         <div style={{ borderBottomWidth: 1, borderBottomStyle: "solid", borderBottomColor: "black", width: "100%", display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }} >
           <h1>Activities Timeline</h1>
@@ -58,8 +123,7 @@ export default function About() {
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                  Information Technology internship at Phillips 66. Trained a domain-specific entity extraction
-                  AI model to extract information from highly variable and unstructured pipeline land contract documents.
+                  Information Technology internship at Phillips 66
                 </p>
               </TimelineContent>
             </TimelineItem>
@@ -67,8 +131,8 @@ export default function About() {
             <TimelineItem>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
-                  Performed correlation analysis and visualization among health informatics datasets taken from wearable devices 
-                  under the mentorshop of Dr. Syed Abdul Shabbir at Taipei Medical University (TMU)
+                  Data Analyst Internship; worked remotely under the mentorshop of Dr. Syed Abdul Shabbir at 
+                  Taipei Medical University (TMU)
                 </p>
               </TimelineContent>
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
@@ -168,8 +232,7 @@ export default function About() {
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                  Joined HULA Computer Vision laboratory in Houston, TX as an undergraduate machine learning
-                  research assistant
+                  Joined HULA Computer Vision laboratory in Houston, TX
                 </p>
               </TimelineContent>
             </TimelineItem>

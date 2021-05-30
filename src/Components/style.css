@@ -2,7 +2,12 @@ ul {
   list-style-type: none;
 }
 
-h1 {
+li {
+  font-size: 20px;
+  font-family: 'Castoro';
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Castoro';
 }
 
@@ -103,8 +108,19 @@ p {
   border-color: blue; */
 }
 
-.TimelineContainer {
+.ExperienceContainer {
   padding-top: 2vh;
+  padding-left: 4vh;
+  padding-right: 4vh; 
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+
+.TimelineContainer {
+  padding-top: 5vh;
+  padding-left: 4vh;
+  padding-right: 4vh; 
 }
 
 .vertical-timeline.vertical-timeline-custom-line::before {
