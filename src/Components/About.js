@@ -40,24 +40,25 @@ export default function About() {
       </Grid>
       <Grid item xs={12} className="TimelineContainer" >
         <div style={{ borderBottomWidth: 1, borderBottomStyle: "solid", borderBottomColor: "black", width: "100%", display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }} >
-          <h1>Activities Timeline {"{"}</h1>
-          <div style={{ marginLeft: '10px', marginRight: '10px' }} >
-            <p style={{ margin: 0, padding: 0, color: '#3f51b5', fontWeight: 'bold' }} >Machine Learning, Data Science</p>
-            <p style={{ margin: 0, padding: 0, color: '#f50057', fontWeight: 'bold' }} >Web Design, Cloud Services, Other</p>
+          <h1>Activities Timeline</h1>
+          <div style={{ marginLeft: '2vw', marginRight: '10px', display: "flex", flexDirection: "row" }} >
+            <div>
+              <p style={{ margin: 0, padding: 0, color: '#3f51b5', fontWeight: 'bold' }} >Machine Learning, Data Science</p>
+              <p style={{ margin: 0, padding: 0, color: '#f50057', fontWeight: 'bold' }} >Web Design, Cloud Services, Other</p>
+            </div>
           </div>
-          <h1>{"}"}</h1>
         </div>
 
         <div style={{ marginBottom: '15vh' }} >
           <Timeline>
             <TimelineItem>
               <TimelineOppositeContent>
-                <Typography color="textSecondary">May-July 2021</Typography>
+                <Typography color="textSecondary">May - July 2021</Typography>
               </TimelineOppositeContent>
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                  Intered at Phillips 66 as an Information Technology intern. Trained a domain-specific entity extraction
+                  Information Technology internship at Phillips 66. Trained a domain-specific entity extraction
                   AI model to extract information from highly variable and unstructured pipeline land contract documents.
                 </p>
               </TimelineContent>
