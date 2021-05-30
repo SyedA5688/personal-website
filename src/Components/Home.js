@@ -8,7 +8,7 @@ import linkedInIcon from '../images/linkedin.png';
 export default function Home() {
   return (
     <Grid container className="HomeScreenContainer" >
-      <Grid item xs={12} md={6} className="DescColumn" >
+      <Grid item xs={12} lg={6} className="DescColumn" >
         <div style={{ borderBottomWidth: 2, borderBottomColor: "grey", borderBottomStyle: "solid" }} >
           <p style={{ fontSize: 65, fontWeight: "bold", fontFamily: "Castoro" }} >Syed Asad Rizvi</p>
           <p>
@@ -25,7 +25,7 @@ export default function Home() {
           <a href="https://linkedin.com/in/syed-a-rizvi-01" target="_blank" rel="noreferrer" ><img src={linkedInIcon} alt="LinkedIn" height="50px" ></img></a>
         </div>
       </Grid>
-      <Grid item xs={12} md={6} className="ImageColumn" >
+      <Grid item xs={12} lg={6} className="ImageColumn" >
         <img src={portrait_no_bg} alt="Syed Rizvi" height="100%" ></img>
       </Grid>
     </Grid>

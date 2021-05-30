@@ -43,7 +43,6 @@ p {
 }
 
 .DescColumn {
-  height: 90vh;
   padding-top: 8%;
   text-align: start;
   /* border-style: solid;
@@ -71,21 +70,41 @@ p {
 
 
 /* About Screen */
+.AboutPageContainer {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
 .AboutImgColumn {
-  height: 90vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: start;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
 }
 
 .AboutImg {
   border-width: 7px;
   border-style: solid;
-  border-color: #785027;
+  border-color: #60401f;
 }
 
 .AboutColumn {
-  height: 80vh;
   text-align: start;
-  padding: 15px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 3%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: blue; */
+}
+
+.TimelineContainer {
+  padding-top: 2vh;
 }
 
 .vertical-timeline.vertical-timeline-custom-line::before {

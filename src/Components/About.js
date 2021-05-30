@@ -13,11 +13,11 @@ import Typography from '@material-ui/core/Typography';
 
 export default function About() {
   return (
-    <Grid container >
-      <Grid item xs={12} md={4} className="AboutImgColumn" >
-        <img src={portrait} alt="Portrait" width="95%" className="AboutImg" ></img>
+    <Grid container className="AboutPageContainer" >
+      <Grid item xs={12} lg={4} className="AboutImgColumn" >
+        <img src={portrait} alt="Portrait" height="85%" className="AboutImg" ></img>
       </Grid>
-      <Grid item xs={12} md={8} className="AboutColumn" >
+      <Grid item xs={12} lg={8} className="AboutColumn" >
         <h1>About Me</h1>
         <p>
           I am an aspiring machine learning developer and a member of the Houston Ubiquitous 
@@ -38,7 +38,7 @@ export default function About() {
           Location: Houston, TX
         </p>
       </Grid>
-      <Grid item xs={12} >
+      <Grid item xs={12} className="TimelineContainer" >
         <div style={{ borderBottomWidth: 1, borderBottomStyle: "solid", borderBottomColor: "black", width: "100%", display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }} >
           <h1>Activities Timeline {"{"}</h1>
           <div style={{ marginLeft: '10px', marginRight: '10px' }} >
