@@ -40,8 +40,8 @@ p {
   align-items: center;
   width: 100vw;
   height: 90vh;
-  padding-left: 12vw;
-  padding-right: 12vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .DescColumn p {

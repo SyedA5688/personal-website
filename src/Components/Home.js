@@ -10,7 +10,7 @@ export default function Home() {
     <Grid container className="HomeScreenContainer" >
       <Grid item xs={12} md={6} className="DescColumn" >
         <div style={{ borderBottomWidth: 2, borderBottomColor: "grey", borderBottomStyle: "solid" }} >
-          <p style={{ fontSize: 70, fontWeight: "bold", fontFamily: "Castoro" }} >Syed Asad Rizvi</p>
+          <p style={{ fontSize: 65, fontWeight: "bold", fontFamily: "Castoro" }} >Syed Asad Rizvi</p>
           <p>
             Computer Science undergraduate at the University of Houston,
             machine learning research assistant, and data science enthusiast.
