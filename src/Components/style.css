@@ -22,14 +22,23 @@ p {
   width: 100vw;
   height: 10vh;
   padding-top: 2vh;
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
 .Link {
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Castoro';
+}
+
+.ALink {
+  margin-left: 1vw;
+  margin-right: 8vw;
   color: black;
   text-decoration: none;
   font-size: 22px;
@@ -110,8 +119,6 @@ p {
 
 .ExperienceContainer {
   padding-top: 2vh;
-  padding-left: 4vh;
-  padding-right: 4vh; 
   /* border-style: solid;
   border-width: 2px;
   border-color: black; */
@@ -119,8 +126,6 @@ p {
 
 .TimelineContainer {
   padding-top: 5vh;
-  padding-left: 4vh;
-  padding-right: 4vh; 
 }
 
 .vertical-timeline.vertical-timeline-custom-line::before {

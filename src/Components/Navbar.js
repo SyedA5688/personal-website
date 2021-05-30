@@ -11,7 +11,7 @@ export default function Navbar() {
         <Link className="Link" to="/about" >About</Link>
         <Link className="Link" to="/projects" >Projects</Link>
         {/* <Link className="Link" to="/research" >Research</Link> */}
-        <a className="Link" href="./Rizvi_Syed_Resume.pdf" target="_blank">Resume</a>
+        <a className="ALink" href="./Rizvi_Syed_Resume.pdf" target="_blank">Resume</a>
       </ul>
     </div>
   )
