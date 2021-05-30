@@ -71,7 +71,7 @@ export default function About() {
           </ul>
         </div>
 
-        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
+        {/* <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
           <h3>Phillips 66, Houston, TX</h3>
           <p style={{ fontStyle: "italic", margin: 0 }} >Information Technology Intern</p>
           <ul style={{ listStyleType: "circle" }} >
@@ -84,7 +84,7 @@ export default function About() {
               team’s capability to more unstructured documents
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
           <h3>Taipei Medical University, Taipei, Taiwan</h3>
