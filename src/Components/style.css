@@ -16,7 +16,7 @@ p {
 .NavbarContainer {
   width: 100vw;
   height: 10vh;
-  display: flex;
+  padding-top: 2vh;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -27,34 +27,24 @@ p {
   margin-right: 12px;
   color: black;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Castoro';
 }
 
 
 /* Home Screen */
 .HomeScreenContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100vw;
-  height: 90vh;
   padding-left: 10vw;
   padding-right: 10vw;
 }
 
 .DescColumn p {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .DescColumn {
   height: 90vh;
-  padding-bottom: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  padding-top: 8%;
   text-align: start;
   /* border-style: solid;
   border-width: 2px;
@@ -62,10 +52,6 @@ p {
 }
 
 .IconsContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
   padding: 15px;
 }
 
@@ -75,10 +61,6 @@ p {
 
 .ImageColumn {
   height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
   /* border-style: solid;
   border-width: 2px;
   border-color: black; */
