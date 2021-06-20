@@ -6,12 +6,12 @@ import './style.css';
 export default function Navbar() {
   return (
     <div className="NavbarContainer" >
-      <ul>
+      <ul className="LinkUL" >
         <Link className="Link" to="/" >Home</Link>
         <Link className="Link" to="/about" >About</Link>
         <Link className="Link" to="/projects" >Projects</Link>
         {/* <Link className="Link" to="/research" >Research</Link> */}
-        <a className="ALink" href="./Rizvi_Syed_CV.pdf" target="_blank">Resume</a>
+        <a className="ALink" href="./Rizvi_Syed_CV.pdf" target="_blank">CV</a>
       </ul>
     </div>
   )
