@@ -115,7 +115,8 @@ export default function About() {
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                  Information Technology internship at Phillips 66. Delivered a Natural Language Processing project for document cognition.
+                  Information Technology internship at Phillips 66. Delivered a Natural Language Processing 
+                  project for document cognition and presented project to IT leadership within the company.
                 </p>
               </TimelineContent>
             </TimelineItem>
