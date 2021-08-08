@@ -20,16 +20,16 @@ export default function About() {
       <Grid item xs={12} lg={8} className="AboutColumn" >
         <h1>About Me</h1>
         <p>
-          I am an aspiring machine learning developer and a member of the Houston Ubiquitous 
-          Learning Algorithms (HULA) research laboratory based in Houston, TX. As I pursue a
-          B.S. in Computer Science from the University of Houston, I am researching 
-          applications of artificial intelligence and computer vision on medical image data.
+          I am an aspiring machine learning engineer and a current research assistant at the 
+          Houston Ubiquitous Learning Algorithms (HULA) research laboratory based in Houston, 
+          TX. As I pursue a B.S. in Computer Science from the University of Houston, I am researching 
+          applications of computer vision and machine learning algorithms on medical imaging.
         </p>
         <p>
           I am proficient in Python, Pytorch, Keras, machine learning utility libraries, 
           and Labelbox image annotation projects. <br/>
           My past experience includes mobile and web design with React, React Native, and Javascript, 
-          as well as programming with C++ and Java. <br/>
+          as well as programming in C++ and Java. <br/>
         </p>
         <h1>Contact Information</h1>
         <p>
@@ -41,7 +41,7 @@ export default function About() {
 
       <Grid item xs={12} className="ExperienceContainer" >
         <div style={{ borderBottomWidth: 1, borderBottomStyle: "solid", borderBottomColor: "black", width: "100%" }} >
-          <h1>Professional and Research Experience</h1>
+          <h1>Professional and Research Experience Highlights</h1>
         </div>
         
         <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
@@ -49,55 +49,47 @@ export default function About() {
           <p style={{ fontStyle: "italic", margin: 0 }} >Machine Learning Research Assistant</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Submitted paper to the MICCAI conference proposing novel set transformer-inspired architecture for 
-              case-level renal disease classification
+              Coauthored paper accepted to the MICCAI 2021 conference proposing MorphSet, a neural network 
+              architecture for case-level renal disease classification
             </li>
             <li>
-              Delivered oral abstract on a novel case-level classification architecture to over 100 medical 
-              professionals at the AI in Nephropathology Workshop in Amsterdam 2021
+              Delivered oral abstract on MorphSet to over 100 medical professionals and researchers at the 
+              2021 AI in Nephropathology Workshop held in Amsterdam
             </li>
             <li>
-              Developed custom medical image annotation interfaces allowing for fine-grained grid label 
-              application using React and the Labelbox JavaScript API
-            </li>
-            <li>
-              Delivered presentation on custom labeling schemes using LabelBox platform to computer vision 
-              group at the University of Buffalo, NY
-            </li>
-            <li>
-              Assisted in development of novel style initialization technique for smoothing out data
-               distributions in nephropathology datasets using style transfer algorithms
+              Assisted in development of style initialization techniques to improve on existing style-transfer 
+              data augmentation algorithms for nephropathology datasets
             </li>
           </ul>
         </div>
 
-        {/* <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
+        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
           <h3>Phillips 66, Houston, TX</h3>
           <p style={{ fontStyle: "italic", margin: 0 }} >Information Technology Intern</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Trained a custom AI model for domain-specific entity extraction on highly variable, unstructured pipeline 
-              contract pdf document text.
+              Trained and deployed domain-specific entity recognition models on AzureML cloud services 
+              to perform information extraction on unstructured contract agreements
             </li>
             <li>
-              Integrated entity extraction model into existing Azure cloud service pipeline for document tool, extending 
-              team’s capability to more unstructured documents
+              Conducted text classification experiments for document categorization based on contract clauses
+            </li>
+            <li>
+              Delivered NLP project presentation to IT leadership members and Data Science team at Phillips 66
             </li>
           </ul>
-        </div> */}
+        </div>
 
         <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
           <h3>Taipei Medical University, Taipei, Taiwan</h3>
           <p style={{ fontStyle: "italic", margin: 0 }} >Data Analyst Intern (Remote)</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Preprocessed and merged wearable device data measurements taken from 18 Taiwanese patients
+              Processed and merged wearable device data measurements taken from 18 Taiwanese patients using Python data management libraries
             </li>
             <li>
-            Performed correlation analysis and visualization between physical activity, circulation, 
-              fatigue, and sleep measurements taken over 9 months</li>
-            <li>
-              Explored time-lag cross correlations among patient data
+              Performed correlation analysis and visualization between physical activity, circulation, 
+              fatigue, and sleep measurements taken over 9 months
             </li>
           </ul>
         </div>
@@ -123,7 +115,7 @@ export default function About() {
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                  Information Technology internship at Phillips 66
+                  Information Technology internship at Phillips 66. Delivered a Natural Language Processing project for document cognition.
                 </p>
               </TimelineContent>
             </TimelineItem>
@@ -131,8 +123,8 @@ export default function About() {
             <TimelineItem>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
-                  Data Analyst Internship; worked remotely under the mentorshop of Dr. Syed Abdul Shabbir at 
-                  Taipei Medical University (TMU)
+                  Data Analyst internship. Worked remotely under the mentorshop of Dr. Syed Abdul Shabbir at 
+                  Taipei Medical University (TMU) to process and analyze health informatics datasets.
                 </p>
               </TimelineContent>
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
