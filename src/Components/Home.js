@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import portrait_no_bg from '../images/professional_portrait.png';
 import githubIcon from '../images/GitHub-Mark-64px.png';
 import linkedInIcon from '../images/linkedin.png';
+import googleScholarIcon from '../images/google_scholar_icon.png';
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <div className="IconsContainer" >
           <a href="https://github.com/SyedA5688" target="_blank" rel="noreferrer" ><img src={githubIcon} alt="GitHub" height="50px" ></img></a>
           <a href="https://linkedin.com/in/syed-a-rizvi-01" target="_blank" rel="noreferrer" ><img src={linkedInIcon} alt="LinkedIn" height="50px" ></img></a>
+          <a href="https://scholar.google.com/citations?user=2rhnnZ4AAAAJ" target="_blank" rel="noreferrer" ><img src={googleScholarIcon} alt="Google Scholar" height="50px" ></img></a>
         </div>
       </Grid>
       <Grid item xs={12} lg={6} className="ImageColumn" >
