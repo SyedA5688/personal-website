@@ -156,7 +156,7 @@ export default function About() {
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                  Delivered oral abstract for the MorphSet research project to over 100 medical professionals at the 
+                  Delivered oral abstract for the MorphSet research project to over 90 medical professionals at the 
                   AI in Nephropathology Workshop in Amsterdam
                 </p>
               </TimelineContent>
