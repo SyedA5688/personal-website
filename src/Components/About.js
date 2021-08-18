@@ -21,15 +21,17 @@ export default function About() {
         <h1>About Me</h1>
         <p>
           I am an aspiring machine learning engineer and a current research assistant at the 
-          Houston Ubiquitous Learning Algorithms (HULA) research laboratory based in Houston, 
-          TX. As I pursue a B.S. in Computer Science from the University of Houston, I am researching 
+          Houston Learning Algorithms (HULA) research laboratory based in Houston, TX.
+          As I pursue a B.S. in Computer Science from the University of Houston, I am researching 
           applications of computer vision and machine learning algorithms on medical imaging.
+          I am also seeking opportunities to contribute to enterprise-grade deep learning 
+          projects.
         </p>
         <p>
-          I am proficient in Python, Pytorch, Keras, machine learning utility libraries, 
-          and Labelbox image annotation projects. <br/>
-          My past experience includes mobile and web design with React, React Native, and Javascript, 
-          as well as programming in C++ and Java. <br/>
+          My most proficient skills are in Python, Pytorch, Keras, data processing and machine 
+          learning utility libraries, and Labelbox image annotation projects. <br/>
+          Some of my past experience includes mobile and web design with React, React Native, 
+          and Javascript, as well as programming in C++ and Java. <br/>
         </p>
         <h1>Contact Information</h1>
         <p>
@@ -45,20 +47,16 @@ export default function About() {
         </div>
         
         <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
-          <h3>Houston Ubiquitous Learning Algorithms (HULA) Research Laboratory, TX</h3>
+          <h3>Houston Learning Algorithms (HULA) Research Laboratory, TX</h3>
           <p style={{ fontStyle: "italic", margin: 0 }} >Machine Learning Research Assistant</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Coauthored paper accepted to the MICCAI 2021 conference proposing MorphSet, a neural network 
-              architecture for case-level renal disease classification
+              Coauthored research paper accepted to the MICCAI 2021 conference proposing MorphSet, a 
+              neural network architecture for case-level kidney disease classification
             </li>
             <li>
-              Delivered oral abstract on MorphSet to over 100 medical professionals and researchers at the 
+              Delivered oral abstract on MorphSet to over 90 medical professionals and researchers at the 
               2021 AI in Nephropathology Workshop held in Amsterdam
-            </li>
-            <li>
-              Assisted in development of style initialization techniques to improve on existing style-transfer 
-              data augmentation algorithms for nephropathology datasets
             </li>
           </ul>
         </div>
@@ -68,14 +66,13 @@ export default function About() {
           <p style={{ fontStyle: "italic", margin: 0 }} >Information Technology Intern</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Trained and deployed domain-specific entity recognition models on AzureML cloud services 
-              to perform information extraction on unstructured contract agreements
+              Trained and deployed domain-specific entity recognition models on AzureML cloud services, 
+              identifying 6 contract entities within unstructured text and reaching 87% overall model 
+              precision
             </li>
             <li>
-              Conducted text classification experiments for document categorization based on contract clauses
-            </li>
-            <li>
-              Delivered NLP project presentation to IT leadership members and Data Science team at Phillips 66
+              Delivered Natural Language Processing project presentation to IT leadership members 
+              and Data Science team at Phillips 66
             </li>
           </ul>
         </div>
@@ -85,7 +82,8 @@ export default function About() {
           <p style={{ fontStyle: "italic", margin: 0 }} >Data Analyst Intern (Remote)</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Processed and merged wearable device data measurements taken from 18 Taiwanese patients using Python data management libraries
+              Processed and merged wearable device data measurements taken from 18 Taiwanese patients 
+              using Python data management libraries
             </li>
             <li>
               Performed correlation analysis and visualization between physical activity, circulation, 
@@ -108,6 +106,20 @@ export default function About() {
 
         <div style={{ marginBottom: '15vh' }} >
           <Timeline>
+            <TimelineItem>
+              <TimelineContent>
+                <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
+                  Completed the IBM Data Science Specialization on Coursera
+                </p>
+              </TimelineContent>
+              <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
+              <TimelineOppositeContent>
+                <Typography color="textSecondary" style={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
+                  August 2021
+                </Typography>
+              </TimelineOppositeContent>
+            </TimelineItem>
+            
             <TimelineItem>
               <TimelineOppositeContent>
                 <Typography color="textSecondary">May - July 2021</Typography>
@@ -152,7 +164,7 @@ export default function About() {
             <TimelineItem>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
-                  Completed Machine Learning certification offered by Stanford University on Coursera
+                  Completed the Machine Learning certification offered by Stanford University on Coursera
                 </p>
               </TimelineContent>
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
