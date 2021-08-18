@@ -109,7 +109,8 @@ export default function About() {
             <TimelineItem>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
-                  Completed the IBM Data Science Specialization on Coursera
+                  Completed the IBM Data Science Specialization on Coursera covering SQL querying as well as data 
+                  visualization, processing, and analysis using machine learning.
                 </p>
               </TimelineContent>
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
@@ -237,7 +238,7 @@ export default function About() {
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                  Joined HULA Computer Vision laboratory in Houston, TX
+                  Joined HULA Computer Vision laboratory as a machine learning research assistant
                 </p>
               </TimelineContent>
             </TimelineItem>
