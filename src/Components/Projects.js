@@ -40,9 +40,9 @@ export default function Projects() {
         >
           <h3 className="vertical-timeline-element-title">AWS Lex Bot Generator</h3>
           <p style={{ marginBottom: 10 }} >
-            AWS pipeline for generating AWS Lex AI-powered chatbots from inputed configuration files. 
-            Files are sent to an AWS S3 bucket which triggers lambda functions that start bot generation 
-            process. Placed 1st in HP and AWS Botathon.
+            AWS pipeline for generating AWS Lex AI-powered chatbots from input configuration files. 
+            AWS Lambda triggers monitor storage buckets and trigger bot generation process. Project
+            placed 1st overall in the HP and AWS Botathon.
           </p>
           <img src={botathon_certificate_img} alt="HP Botathon Certificate" width="80%" className="ProjectImg" ></img>
           <p>
@@ -62,8 +62,8 @@ export default function Projects() {
         >
           <h3 className="vertical-timeline-element-title">Labelbox Custom Medical Image Annotation Interface</h3>
           <p style={{ marginBottom: 10 }} >
-            Custom image annotation interface allowing for rapid grid label application on medical images. 
-            Labels are saved to Labelbox system through integration with Javascript API.
+            Custom image annotation interface allowing for rapid fine-grained annotation of medical images. 
+            Annotations are saved through integration with the Labelbox Javascript API.
           </p>
           <img src={labelbox_interface_img} alt="HP Botathon Certificate" width="80%" className="ProjectImg" ></img>
           <p>
@@ -84,8 +84,8 @@ export default function Projects() {
         >
           <h3 className="vertical-timeline-element-title">LSTM Stock Price Predictor</h3>
           <p style={{ marginBottom: 10 }} >
-            Long Short-Term Memory model designed to predict the stock prices of NASDAQ companies. Network receives 
-            stock information from previous month and outputs predicted opening price for the next day.
+            Long Short-Term Memory model designed to predict the stock prices of NASDAQ companies. Stock opening 
+            price for the next day predicted based on previous month data.
           </p>
           <img src={stock_graph_img} alt="HP Botathon Certificate" width="80%" className="ProjectImg" ></img>
           <p>
@@ -105,9 +105,9 @@ export default function Projects() {
         >
           <h3 className="vertical-timeline-element-title">Autoencoder Anomaly Detection</h3>
           <p style={{ marginBottom: 10 }} >
-            Machine learning model aimed at detecting anomalies in sensor data from environmental conservatories in 
-            Seattle. Data is reconstructed by an autoencoder network and anomalies are then detected based off MAE 
-            loss and segment analysis.
+            Autoencoder machine learning project aimed at detecting anomalies in sensor data from environmental 
+            conservatories in Seattle. Anomalies are detected based off of MAE loss and segment analysis of data
+            reconstruction.
           </p>
           <img src={autoencoder_reconstruction_img} alt="HP Botathon Certificate" width="80%" className="ProjectImg" ></img>
           <p>
@@ -127,9 +127,9 @@ export default function Projects() {
         >
           <h3 className="vertical-timeline-element-title">NutrientView Mobile App</h3>
           <p style={{ marginBottom: 10 }} >
-            Mobile application using image recognition and nutritional APIs to log, track, and display 
-            consumed micronutrients. Previous nutrient profiles available in calendar view page through 
-            integration with Firebase database services.
+            Mobile application utilizing image recognition and nutritional APIs to log, track, and display 
+            consumed micronutrients. Nutrition data for different users maintained through integration with 
+            Firebase database services.
           </p>
           <img src={nutrientview_screens_img} alt="HP Botathon Certificate" width="80%" className="ProjectImg" ></img>
           <p>
@@ -173,7 +173,7 @@ export default function Projects() {
           <h3 className="vertical-timeline-element-title">FinVisor Financial App</h3>
           <p style={{ marginBottom: 10 }} >
             Web application for income and expense tracking aimed at increasing personal financial awareness 
-            and responsibility. Integrated with an SQL database to record personal transaction history of users.
+            and responsibility. Integrated with SQLite database to record personal transaction history of users.
           </p>
           <img src={finvisor_home_img} alt="HP Botathon Certificate" width="80%" className="ProjectImg" ></img>
           <p>
