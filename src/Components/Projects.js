@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import CropOriginalIcon from '@material-ui/icons/CropOriginal';
-import SearchIcon from '@material-ui/icons/Search';
-import LocalAtmIcon from '@material-ui/icons/LocalAtm';
+import CropOriginalIcon from '@mui/icons-material/CropOriginal';
+import SearchIcon from '@mui/icons-material/Search';
+import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 import { BiBot, BiLineChart } from 'react-icons/bi';
 import { AiOutlineCamera } from 'react-icons/ai';
 import { IoThunderstormOutline } from 'react-icons/io5';

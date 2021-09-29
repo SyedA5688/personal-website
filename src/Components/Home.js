@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import Grid from '@mui/material/Grid';
 import portrait_no_bg from '../images/professional_portrait.png';
 import githubIcon from '../images/GitHub-Mark-64px.png';
 import linkedInIcon from '../images/linkedin.png';
