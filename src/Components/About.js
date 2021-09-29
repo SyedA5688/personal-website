@@ -20,17 +20,17 @@ export default function About() {
       <Grid item xs={12} lg={8} className="AboutColumn" >
         <h1>About Me</h1>
         <p>
-          I am an aspiring machine learning engineer and a current research assistant at the 
-          Houston Learning Algorithms (HULA) research laboratory based in Houston, TX.
-          As I pursue a B.S. in Computer Science from the University of Houston, I am researching 
-          applications of computer vision and machine learning algorithms on medical imaging.
-          I am also seeking opportunities to contribute to enterprise-grade deep learning 
+          I am an aspiring deep learning engineer and an undergradaute research assistant at
+          the Houston Learning Algorithms (HULA) research laboratory based in Houston, TX.
+          My main areas of interest in deep learning are transformers, attention-based models,
+          Generative Adversarial Networks, and data augmentation on medical image data.
+          I am currently seeking opportunities to contribute to enterprise-grade deep learning 
           projects.
         </p>
         <p>
-          My most proficient skills are in Python, Pytorch, Keras, data processing and machine 
-          learning utility libraries, and Labelbox image annotation projects. <br/>
-          Some of my past experience includes mobile and web design with React, React Native, 
+          My most proficient skills are in Python, Pytorch, Tensorflow, and deep learning 
+          research projects.<br/>
+          My past experience includes mobile and web design with React, React Native, and
           and Javascript, as well as programming in C++ and Java. <br/>
         </p>
         <h1>Contact Information</h1>
@@ -98,8 +98,8 @@ export default function About() {
           <h1>Activities Timeline</h1>
           <div style={{ marginLeft: '2vw', marginRight: '10px', display: "flex", flexDirection: "row" }} >
             <div>
-              <p style={{ margin: 0, padding: 0, color: '#3f51b5', fontWeight: 'bold' }} >Machine Learning, Data Science</p>
-              <p style={{ margin: 0, padding: 0, color: '#f50057', fontWeight: 'bold' }} >Web Design, Cloud Services, Other</p>
+              <p style={{ margin: 0, padding: 0, color: '#1976D2', fontWeight: 'bold' }} >Machine Learning, Data Science</p>
+              <p style={{ margin: 0, padding: 0, color: '#9C27B0', fontWeight: 'bold' }} >Web Design, Cloud Services, Other</p>
             </div>
           </div>
         </div>

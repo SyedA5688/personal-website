@@ -69,8 +69,8 @@ export default function Projects() {
           <p>
             Developed using ReactJS and the Labelbox Javascript API. <br/><br/>
           </p>
-          {/* <a href="https://github.com/SyedA5688/labelbox-custom-interface" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a> */}
-          <p>This project is private for the time being.</p>
+          <a href="https://github.com/SyedA5688/labelbox-custom-interface" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
+          {/* <p>This project is private for the time being.</p> */}
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
