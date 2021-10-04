@@ -24,8 +24,8 @@ export default function About() {
           the Houston Learning Algorithms (HULA) research laboratory based in Houston, TX.
           My main areas of interest in deep learning are transformers, attention-based models,
           Generative Adversarial Networks, and data augmentation on medical image data.
-          I am currently seeking opportunities to contribute to enterprise-grade deep learning 
-          projects.
+          I am currently seeking opportunities to contribute to industry research and deep-learning
+          initiatives as either a software developer or research intern.
         </p>
         <p>
           My most proficient skills are in Python, Pytorch, Tensorflow, and deep learning 
@@ -98,7 +98,7 @@ export default function About() {
           <h1>Activities Timeline</h1>
           <div style={{ marginLeft: '2vw', marginRight: '10px', display: "flex", flexDirection: "row" }} >
             <div>
-              <p style={{ margin: 0, padding: 0, color: '#1976D2', fontWeight: 'bold' }} >Machine Learning, Data Science</p>
+              <p style={{ margin: 0, padding: 0, color: '#1976D2', fontWeight: 'bold' }} >Deep Learning, Data Science</p>
               <p style={{ margin: 0, padding: 0, color: '#9C27B0', fontWeight: 'bold' }} >Web Design, Cloud Services, Other</p>
             </div>
           </div>
@@ -106,6 +106,19 @@ export default function About() {
 
         <div style={{ marginBottom: '15vh' }} >
           <Timeline>
+            <TimelineItem>
+              <TimelineOppositeContent>
+                <Typography color="textSecondary">May - July 2021</Typography>
+              </TimelineOppositeContent>
+              <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
+              <TimelineContent>
+                <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
+                  Coauthored research publication proposing CNN architectures for case-level classification 
+                  in renal histopathology. Paper accepted to MICCAI, published on Springer. 
+                </p>
+              </TimelineContent>
+            </TimelineItem>
+
             <TimelineItem>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
@@ -129,7 +142,7 @@ export default function About() {
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
                   Information Technology internship at Phillips 66. Delivered a Natural Language Processing 
-                  project for document cognition and presented project to IT leadership within the company.
+                  project for document cognition and presented project to IT leadership and Data Science team.
                 </p>
               </TimelineContent>
             </TimelineItem>
@@ -219,8 +232,8 @@ export default function About() {
             <TimelineItem>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
-                  Delivered presentation on IT profile development in a professional development workshop
-                  hosted by the Management Information Systems Student Organization (MISSO) at UH
+                  Delivered presentation on IT candidate profile development in a professional development
+                  workshop hosted by the Management Information Systems Student Organization (MISSO) at UH
                 </p>
               </TimelineContent>
               <TimelineSeparator><TimelineDot color="secondary" /><TimelineConnector /></TimelineSeparator>
@@ -238,7 +251,7 @@ export default function About() {
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                  Joined HULA Computer Vision laboratory as a machine learning research assistant
+                  Joined HULA Computer Vision laboratory as a deep learning research assistant
                 </p>
               </TimelineContent>
             </TimelineItem>
