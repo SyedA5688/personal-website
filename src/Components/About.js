@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
-import portrait from '../images/portrait.jpg'
+import portrait from '../images/P66_headshot.jpg'
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -22,14 +22,15 @@ export default function About() {
         <p>
           I am an aspiring deep learning engineer and an undergradaute research assistant at
           the Houston Learning Algorithms (HULA) research laboratory based in Houston, TX.
-          My main areas of interest in deep learning are transformers, attention-based models,
-          Generative Adversarial Networks, and data augmentation on medical image data.
+          My main areas of interest in deep learning are transformers, unsupervised learning,
+          Generative Adversarial Networks, and image data augmentation.
           I am currently seeking opportunities to contribute to industry research and deep-learning
           initiatives as either a software developer or research intern.
         </p>
         <p>
           My most proficient skills are in Python, Pytorch, Tensorflow, and deep learning 
-          research projects.<br/>
+          research projects. I have experience working in academic research labs as well as 
+          Agile development team environments.<br/>
           My past experience includes mobile and web design with React, React Native, and
           and Javascript, as well as programming in C++ and Java. <br/>
         </p>
