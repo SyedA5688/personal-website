@@ -22,17 +22,18 @@ export default function About() {
         <p>
           I am an aspiring deep learning engineer and an undergradaute research assistant at
           the Houston Learning Algorithms (HULA) research laboratory based in Houston, TX.
-          My main areas of interest in deep learning are transformers, unsupervised learning,
-          Generative Adversarial Networks, and image data augmentation.
-          I am currently seeking opportunities to contribute to industry research and deep-learning
-          initiatives as either a software developer or research intern.
+          Much of my experience in deep learning research has been on computational 
+          histopathology projects, where we try to address domain-specific challenges faced by 
+          Computer Vision algorithms on pathology image date. As a young researcher, I enjoy 
+          exploring other domain-specific problems involving language and graph-based systems,
+          increasing my deep learning toolkit along the way. 
         </p>
         <p>
-          My most proficient skills are in Python, Pytorch, Tensorflow, and deep learning 
+          My most proficient skills are in Python, Pytorch, Tensorflow, and data science libraries 
           research projects. I have experience working in academic research labs as well as 
           Agile development team environments.<br/>
           My past experience includes mobile and web design with React, React Native, and
-          and Javascript, as well as programming in C++ and Java. <br/>
+          Javascript, as well as programming in C++ and Java. <br/>
         </p>
         <h1>Contact Information</h1>
         <p>
@@ -109,7 +110,7 @@ export default function About() {
           <Timeline>
             <TimelineItem>
               <TimelineOppositeContent>
-                <Typography color="textSecondary">May - July 2021</Typography>
+                <Typography color="textSecondary">September 2021</Typography>
               </TimelineOppositeContent>
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineContent>
