@@ -22,18 +22,16 @@ export default function About() {
         <p>
           I am an aspiring deep learning engineer and an undergradaute research assistant at
           the Houston Learning Algorithms (HULA) research laboratory based in Houston, TX.
-          Much of my experience in deep learning research has been on computational 
-          histopathology projects, where we try to address domain-specific challenges faced by 
-          Computer Vision algorithms on pathology image date. As a young researcher, I enjoy 
-          exploring other domain-specific problems involving language and graph-based systems,
-          increasing my deep learning toolkit along the way. 
+          My main areas of interest are in graph-based deep learning networks and computational
+          histopathology. My research work revolves around modeling deep learning tasks in 
+          unique ways in order to address challenges and constraints in applying AI to 
+          histpathology.
         </p>
         <p>
-          My most proficient skills are in Python, Pytorch, Tensorflow, and data science libraries 
-          research projects. I have experience working in academic research labs as well as 
-          Agile development team environments.<br/>
-          My past experience includes mobile and web design with React, React Native, and
-          Javascript, as well as programming in C++ and Java. <br/>
+          My most proficient developer skills are in Python, Pytorch, Tensorflow, and data 
+          science libraries. I have 1.5 years of experience working in academic research groups 
+          as well as Agile software development team environments.<br/>
+          {/* My expertise and knowledge . <br/> */}
         </p>
         <h1>Contact Information</h1>
         <p>
