@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import CropOriginalIcon from '@mui/icons-material/CropOriginal';
 import SearchIcon from '@mui/icons-material/Search';
 // import LocalAtmIcon from '@mui/icons-material/LocalAtm';
-import { BiBot, BiLineChart } from 'react-icons/bi';
+import { BiBot } from 'react-icons/bi';  // BiLineChart
 import { AiOutlineCamera } from 'react-icons/ai';
 import { IoThunderstormOutline } from 'react-icons/io5';
 import botathon_certificate_img from '../images/projects/HP_botathon_certificate.png';
