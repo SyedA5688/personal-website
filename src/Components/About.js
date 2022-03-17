@@ -20,18 +20,18 @@ export default function About() {
       <Grid item xs={12} lg={8} className="AboutColumn" >
         <h1>About Me</h1>
         <p>
-          I am an aspiring deep learning engineer and an undergradaute research assistant at
-          the Houston Learning Algorithms (HULA) research laboratory based in Houston, TX.
-          My main areas of interest are in graph-based deep learning networks and computational
-          histopathology. My research work revolves around modeling deep learning tasks in 
-          unique ways in order to address challenges and constraints in applying AI to 
-          histpathology.
+          I am a computer science undergraduate student at the University of Houston, 
+          where I work as an undergraduate researcher in the Houston Learning 
+          Algorithms (HULA) research laboratory under the guide of Dr. Hien Van Nguyen.
+          My main areas of interest are in spatiotemporal data modeling, Graph Neural 
+          Networks, and Convolutional Neural Networks. I am particularly excited about
+          representing real-world spatiotemporal data using deep Graph Neural Networks, 
+          and making progress on the interpretability of deep graph networks.
         </p>
         <p>
-          My most proficient developer skills are in Python, Pytorch, Tensorflow, and data 
-          science libraries. I have 1.5 years of experience working in academic research groups 
-          as well as Agile software development team environments.<br/>
-          {/* My expertise and knowledge . <br/> */}
+          I am proficient in Python programming, Pytorch, and data science libraries. 
+          I have 1.5 years of experience working in academic research groups as well as 
+          Agile software development team environments.<br/>
         </p>
         <h1>Contact Information</h1>
         <p>
@@ -114,7 +114,7 @@ export default function About() {
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
                   Coauthored research publication proposing CNN architectures for case-level classification 
-                  in renal histopathology. Paper accepted to MICCAI, published on Springer. 
+                  in renal histopathology. Paper accepted to MICCAI. 
                 </p>
               </TimelineContent>
             </TimelineItem>

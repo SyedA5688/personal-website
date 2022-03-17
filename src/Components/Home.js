@@ -14,7 +14,7 @@ export default function Home() {
           <p style={{ fontSize: 65, fontWeight: "bold", fontFamily: "Castoro" }} >Syed Asad Rizvi</p>
           <p>
             Computer Science undergraduate at the University of Houston,
-            deep learning research assistant at HULA, and data science enthusiast.
+            undergraduate researcher at HULA.
           </p>
           <p>
             Click around to find out more about me, or check out one of my

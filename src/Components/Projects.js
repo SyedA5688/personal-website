@@ -2,17 +2,17 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import CropOriginalIcon from '@mui/icons-material/CropOriginal';
 import SearchIcon from '@mui/icons-material/Search';
-import LocalAtmIcon from '@mui/icons-material/LocalAtm';
+// import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 import { BiBot, BiLineChart } from 'react-icons/bi';
 import { AiOutlineCamera } from 'react-icons/ai';
 import { IoThunderstormOutline } from 'react-icons/io5';
 import botathon_certificate_img from '../images/projects/HP_botathon_certificate.png';
 import labelbox_interface_img from '../images/projects/labelbox_interface.png';
-import stock_graph_img from '../images/projects/stock_graph.png';
+// import stock_graph_img from '../images/projects/stock_graph.png';
 import autoencoder_reconstruction_img from '../images/projects/time_series_reconstruction.png';
 import nutrientview_screens_img from '../images/projects/nutrientview_screens.png';
 import stormready_screens_img from '../images/projects/stormready_screens.png';
-import finvisor_home_img from '../images/projects/finvisor_home.png';
+// import finvisor_home_img from '../images/projects/finvisor_home.png';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -73,7 +73,7 @@ export default function Projects() {
           {/* <p>This project is private for the time being.</p> */}
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
           contentArrowStyle={{ borderRight: '10px solid #424242' }}
@@ -92,7 +92,7 @@ export default function Projects() {
             Developed using Python and Keras, hosted on Herkou. <br/><br/>
           </p>
           <a href="https://github.com/SyedA5688/HackRice-stock-prediction" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -161,7 +161,7 @@ export default function Projects() {
           <a href="https://github.com/SyedA5688/StormReady" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#afe0af', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
           contentArrowStyle={{ borderRight: '10px solid  #424242' }}
@@ -180,7 +180,7 @@ export default function Projects() {
             Developed using Python, Flask, and SQL Alchemy. <br/><br/>
           </p>
           <a href="https://github.com/SyedA5688/FinVisor" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
       </VerticalTimeline>
     </div>
   )
