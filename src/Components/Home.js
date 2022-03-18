@@ -13,8 +13,12 @@ export default function Home() {
         <div style={{ borderBottomWidth: 2, borderBottomColor: "grey", borderBottomStyle: "solid" }} >
           <p style={{ fontSize: 65, fontWeight: "bold", fontFamily: "Castoro" }} >Syed Asad Rizvi</p>
           <p>
-            Computer Science undergraduate at the University of Houston,
+            Computer Science undergraduate at the University of Houston and            
             undergraduate researcher at HULA.
+          </p>
+          <p>
+            I'm interested in modeling real-world spatiotemporal problems with 
+            deep graph neural networks.
           </p>
           <p>
             Click around to find out more about me, or check out one of my

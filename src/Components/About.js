@@ -20,18 +20,18 @@ export default function About() {
       <Grid item xs={12} lg={8} className="AboutColumn" >
         <h1>About Me</h1>
         <p>
-          I am a computer science undergraduate student at the University of Houston, 
-          where I work as an undergraduate researcher in the Houston Learning 
-          Algorithms (HULA) research laboratory under the guide of Dr. Hien Van Nguyen.
-          My main areas of interest are in spatiotemporal data modeling, Graph Neural 
-          Networks, and Convolutional Neural Networks. I am particularly excited about
-          representing real-world spatiotemporal data using deep Graph Neural Networks, 
-          and making progress on the interpretability of deep graph networks.
+          I am a computer science undergraduate at the University of Houston, where I 
+          work as an undergraduate researcher in the Houston Learning Algorithms (HULA) 
+          research laboratory under the guide of Dr. Hien Van Nguyen.
+          My main areas of interest are in Graph Neural Networks, Convolutional Neural 
+          Networks, and spatiotemporal data. I am particularly excited about
+          solving real-world scientific problems through spatiotemporal modeling using 
+          deep Graph Neural Networks.
         </p>
         <p>
           I am proficient in Python programming, Pytorch, and data science libraries. 
           I have 1.5 years of experience working in academic research groups as well as 
-          Agile software development team environments.<br/>
+          industry software development Agile environments.<br/>
         </p>
         <h1>Contact Information</h1>
         <p>
