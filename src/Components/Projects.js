@@ -3,7 +3,9 @@ import { Button } from 'react-bootstrap';
 import CropOriginalIcon from '@mui/icons-material/CropOriginal';
 import SearchIcon from '@mui/icons-material/Search';
 // import LocalAtmIcon from '@mui/icons-material/LocalAtm';
+// import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import { BiBot } from 'react-icons/bi';  // BiLineChart
+import { SiGraphql } from 'react-icons/si';  // BiLineChart
 import { AiOutlineCamera } from 'react-icons/ai';
 import { IoThunderstormOutline } from 'react-icons/io5';
 import botathon_certificate_img from '../images/projects/HP_botathon_certificate.png';
@@ -29,6 +31,26 @@ export default function Projects() {
       </div>
       
       <VerticalTimeline className="vertical-timeline-custom-line" >
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
+          contentArrowStyle={{ borderRight: '10px solid  #424242' }}
+          date="March 2022"
+          position={"right"}
+          iconStyle={{ background: 'khaki', color: '#000' }}
+          icon={<SiGraphql />}
+        >
+          <h3 className="vertical-timeline-element-title">Node Classification using GNNs</h3>
+          <p style={{ marginBottom: 10 }} >
+            CS 4337 project using deep Graph Neural Networks to do node classification on the Cora citation network dataset. Implementation details of GCN, GraphSAGE, and GATs were explored and contrasted.
+          </p>
+          {/* <img src={botathon_certificate_img} alt="HP Botathon Certificate" width="80%" className="ProjectImg" ></img> */}
+          <p>
+            Developed using Python, Pytorch, and Pytorch Geometric. <br/><br/>
+          </p>
+          <a href="https://github.com/SyedA5688/GNN_Cora_Node_Classification" target="_blank" rel="noreferrer" ><Button variant="outline-dark">View Project</Button></a>
+        </VerticalTimelineElement>
+        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'khaki', color: '#000', fontFamily: 'Castoro', borderWidth: 4, borderStyle: "solid", borderColor: "#424242" }}
