@@ -29,9 +29,7 @@ export default function About() {
           deep Graph Neural Networks.
         </p>
         <p>
-          I am proficient in Python programming, Pytorch, and data science libraries. 
-          I have 1.5 years of experience working in academic research groups as well as 
-          industry software development Agile environments.<br/>
+          I am proficient in Python programming, Pytorch, and data science libraries.<br/>
         </p>
         <h1>Contact Information</h1>
         <p>
@@ -62,32 +60,12 @@ export default function About() {
         </div>
 
         <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
-          <h3>Phillips 66, Houston, TX</h3>
-          <p style={{ fontStyle: "italic", margin: 0 }} >Information Technology Intern</p>
+          <h3>Amazon, Austin, TX</h3>
+          <p style={{ fontStyle: "italic", margin: 0 }} >Software Development Intern</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Trained and deployed domain-specific entity recognition models on AzureML cloud services, 
-              identifying 6 contract entities within unstructured text and reaching 87% overall model 
-              precision
-            </li>
-            <li>
-              Delivered Natural Language Processing project presentation to IT leadership members 
-              and Data Science team at Phillips 66
-            </li>
-          </ul>
-        </div>
-
-        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
-          <h3>Taipei Medical University, Taipei, Taiwan</h3>
-          <p style={{ fontStyle: "italic", margin: 0 }} >Data Analyst Intern (Remote)</p>
-          <ul style={{ listStyleType: "circle" }} >
-            <li>
-              Processed and merged wearable device data measurements taken from 18 Taiwanese patients 
-              using Python data management libraries
-            </li>
-            <li>
-              Performed correlation analysis and visualization between physical activity, circulation, 
-              fatigue, and sleep measurements taken over 9 months
+              Developed an independent launcher application for starting customer support screen 
+              sharing sessions on Amazon-built devices using the Spring Java framework.
             </li>
           </ul>
         </div>
@@ -106,6 +84,34 @@ export default function About() {
 
         <div style={{ marginBottom: '15vh' }} >
           <Timeline>
+            <TimelineItem>
+              <TimelineOppositeContent>
+                <Typography color="textSecondary">June 2022</Typography>
+              </TimelineOppositeContent>
+              <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
+              <TimelineContent>
+                <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
+                  Submitted Histopathology DatasetGAN research project to IEEE Signal Processing 
+                  in Medicine and Biology conference.
+                </p>
+              </TimelineContent>
+            </TimelineItem>
+
+            <TimelineItem>
+              <TimelineContent>
+                <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
+                  Amazon internship in Austin, TX. Developed independent launcher application for customer support screen sharing 
+                  sessions.
+                </p>
+              </TimelineContent>
+              <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
+              <TimelineOppositeContent>
+                <Typography color="textSecondary" style={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
+                  May - August 2022
+                </Typography>
+              </TimelineOppositeContent>
+            </TimelineItem>
+            
             <TimelineItem>
               <TimelineOppositeContent>
                 <Typography color="textSecondary">September 2021</Typography>
