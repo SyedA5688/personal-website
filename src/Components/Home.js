@@ -17,8 +17,8 @@ export default function Home() {
             undergraduate researcher at HULA.
           </p>
           <p>
-            I'm interested in modeling real-world spatiotemporal problems with 
-            deep graph neural networks.
+            I'm interested in modeling real-world spatiotemporal and biomedical problems 
+            with deep Graph Neural Networks.
           </p>
           <p>
             Click around to find out more about me, or check out one of my
