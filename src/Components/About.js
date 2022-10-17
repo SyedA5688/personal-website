@@ -20,16 +20,14 @@ export default function About() {
       <Grid item xs={12} lg={8} className="AboutColumn" >
         <h1>About Me</h1>
         <p>
-          I am a computer science undergraduate at the University of Houston, where I 
-          work as an undergraduate researcher in the Houston Learning Algorithms (HULA) 
-          research laboratory under the guide of Dr. Hien Van Nguyen.
-          My main areas of interest are in Graph Neural Networks, Convolutional Neural 
-          Networks, and spatiotemporal data. I am particularly excited about
-          solving real-world scientific problems through spatiotemporal modeling using 
-          deep Graph Neural Networks.
-        </p>
-        <p>
-          I am proficient in Python programming, Pytorch, and data science libraries.<br/>
+          I am a final year Computer Science undergraduate at the University of Houston,
+          and a visiting research student at Yale University supervised by Dr. David van
+          Dijk. Previously I worked as an undergraduate research student at the Houston 
+          Learning Algorithms (HULA) group, advised by Dr. Hien van Nguyen, as well as 
+          at Houston Methodist, advised by Dr. Vittorio Cristini and Dr. Prashant Dogra.
+          My research mainly focuses on applying Machine Learning and deep Graph Neural 
+          Networks to real-world scientific problems. I am particularly interested in 
+          explainable AI (XAI) and self-supervised learning.
         </p>
         <h1>Contact Information</h1>
         <p>
@@ -45,16 +43,48 @@ export default function About() {
         </div>
         
         <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
-          <h3>Houston Learning Algorithms (HULA) Research Laboratory, TX</h3>
-          <p style={{ fontStyle: "italic", margin: 0 }} >Machine Learning Research Assistant</p>
+          <h3>Yale University, New Haven, Connecticut</h3>
+          <p style={{ fontStyle: "italic", margin: 0 }} >Undergradaute Research Student</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Coauthored research paper accepted to the MICCAI 2021 conference proposing MorphSet, a 
-              neural network architecture for case-level kidney disease classification
+              Advised by Dr. David van Dijk, Department of Computer Science and Internal Medicine
             </li>
             <li>
-              Delivered oral abstract on MorphSet to over 90 medical professionals and researchers at the 
-              2021 AI in Nephropathology Workshop held in Amsterdam
+              Feature-level interaction between nodes using novel attention-based message-passing framework for Graph Neural Networks
+            </li>
+          </ul>
+        </div>
+
+        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
+          <h3>Houston Methodist, Houston, TX</h3>
+          <p style={{ fontStyle: "italic", margin: 0 }} >Undergradaute Research Student</p>
+          <ul style={{ listStyleType: "circle" }} >
+            <li>
+              Advised by Dr. Vittorio Cristini and Dr. Prashant Dogra, Department of 
+              Mathematics in Medicine
+            </li>
+            <li>
+              Spatiotemporal Graph Neural Network architecture for COVID-19 pandemic forecasting 
+              on dynamic infection and international flight data
+            </li>
+            <li>
+              Perturbation-based explainability framework for sensitivity analysis in spatiotemporal GNNs
+            </li>
+          </ul>
+        </div>
+
+        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
+          <h3>University of Houston, Houston, TX</h3>
+          <p style={{ fontStyle: "italic", margin: 0 }} >Undergradaute Research Student</p>
+          <ul style={{ listStyleType: "circle" }} >
+            <li>
+              Advised by Dr. Hien van Nguyen, Department of Electrical and Computer Engineering
+            </li>
+            <li>
+              Label-efficient frameworks for case-level classification on histopathology data
+            </li>
+            <li>
+              Computationally efficient semi-supervised medical image generation and segmentation
             </li>
           </ul>
         </div>
@@ -86,7 +116,7 @@ export default function About() {
           <Timeline>
             <TimelineItem>
               <TimelineOppositeContent>
-                <Typography color="textSecondary">June 2022</Typography>
+                <Typography color="textSecondary">July 2022</Typography>
               </TimelineOppositeContent>
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineContent>
@@ -100,14 +130,40 @@ export default function About() {
             <TimelineItem>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
-                  Amazon internship in Austin, TX. Developed independent launcher application for customer support screen sharing 
-                  sessions.
+                  Joined the van Dijk Lab at Yale University as a visiting research student.
                 </p>
               </TimelineContent>
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineOppositeContent>
                 <Typography color="textSecondary" style={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                  May - August 2022
+                  June 2022
+                </Typography>
+              </TimelineOppositeContent>
+            </TimelineItem>
+
+            <TimelineItem>
+              <TimelineOppositeContent>
+                <Typography color="textSecondary">May - August 2022</Typography>
+              </TimelineOppositeContent>
+              <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
+              <TimelineContent>
+                <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
+                  Amazon internship in Austin, TX.
+                </p>
+              </TimelineContent>
+            </TimelineItem>
+
+            <TimelineItem>
+              <TimelineContent>
+                <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
+                  Joined Houston Methodist as a undergraduate research student working on spatiotemporal Graph 
+                  Neural Networks and explainability frameworks for COVID-19 forecasting.
+                </p>
+              </TimelineContent>
+              <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
+              <TimelineOppositeContent>
+                <Typography color="textSecondary" style={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
+                  December 2021
                 </Typography>
               </TimelineOppositeContent>
             </TimelineItem>
