@@ -32,7 +32,7 @@ export default function About() {
         <p>
           Previously, I have had the fortune of working as an undergraduate research student 
           at the University of Houston and Houston Methodist. For more information, visit
-          the Research tab to view my previous research work.
+          the <a href="https://syedarizvi.com/research" rel="noreferrer" >Research</a> tab to view my previous research work.
         </p>
         <h1>Contact Information</h1>
         <p>
@@ -52,7 +52,7 @@ export default function About() {
           <p style={{ fontStyle: "italic", margin: 0 }} >Undergradaute Research Student</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Advised by Dr. David van Dijk, Department of Computer Science and Internal Medicine
+              Advised by <a href="https://www.vandijklab.org" target="_blank" rel="noreferrer" >Dr. David van Dijk</a>, Department of Computer Science and Internal Medicine
             </li>
             <li>
               Feature-level interaction between nodes using novel attention-based message-passing framework for Graph Neural Networks
@@ -65,7 +65,7 @@ export default function About() {
           <p style={{ fontStyle: "italic", margin: 0 }} >Undergradaute Research Student</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Advised by Dr. Vittorio Cristini and Dr. Prashant Dogra, Department of 
+              Advised by <a href="https://www.houstonmethodist.org/faculty/vittorio-cristini/" target="_blank" rel="noreferrer" >Dr. Vittorio Cristini</a> and <a href="https://www.houstonmethodist.org/faculty/prashant-dogra/" target="_blank" rel="noreferrer" >Dr. Prashant Dogra</a>, Department of 
               Mathematics in Medicine
             </li>
             <li>
@@ -83,7 +83,7 @@ export default function About() {
           <p style={{ fontStyle: "italic", margin: 0 }} >Undergradaute Research Student</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Advised by Dr. Hien van Nguyen, Department of Electrical and Computer Engineering
+              Advised by <a href="https://www.hvnguyen.com" target="_blank" rel="noreferrer" >Dr. Hien van Nguyen</a>, Department of Electrical and Computer Engineering
             </li>
             <li>
               Label-efficient frameworks for case-level classification on histopathology data
