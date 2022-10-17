@@ -33,7 +33,7 @@ export default function Research() {
             of histopathological images. These architectures bypass the need for expensive 
             fine-grained image annotation by nephropathologists, and attempts to learn
             embeddings of important features in sets of images taken from patients in order 
-            to make classifications. 
+            to make classifications.  
           </Typography>
         </CardContent>
         <CardActions>
