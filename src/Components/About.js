@@ -22,12 +22,17 @@ export default function About() {
         <p>
           I am a final year Computer Science undergraduate at the University of Houston,
           and a visiting research student at Yale University supervised by Dr. David van
-          Dijk. Previously I worked as an undergraduate research student at the Houston 
-          Learning Algorithms (HULA) group, advised by Dr. Hien van Nguyen, as well as 
-          at Houston Methodist, advised by Dr. Vittorio Cristini and Dr. Prashant Dogra.
-          My research mainly focuses on applying Machine Learning and deep Graph Neural 
-          Networks to real-world scientific problems. I am particularly interested in 
-          explainable AI (XAI) and self-supervised learning.
+          Dijk. I'm interested in applying Machine Learning and Graph Neural Networks (GNNs)
+          to real-world scientific problems. I am particularly interested in 
+          developing explainable AI (XAI) systems to bring more interpretability into 
+          deep learning systems. My prior research work revolves around developing 
+          Machine Learning systems for histopathology image data as well as sensitivity 
+          analysis frameworks for spatiotemporal GNNs.
+        </p>
+        <p>
+          Previously, I have had the fortune of working as an undergraduate research student 
+          at the University of Houston and Houston Methodist. For more information, visit
+          the Research tab to view my previous research work.
         </p>
         <h1>Contact Information</h1>
         <p>
