@@ -51,7 +51,7 @@ export default function About() {
         
         <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
           <h3>Yale University, New Haven, Connecticut</h3>
-          <p style={{ fontStyle: "italic", margin: 0 }} >Undergraduate Research Student</p>
+          <p style={{ fontStyle: "italic", margin: 0 }} >Undergraduate Research Student (<a href="https://www.vandijklab.org" target="_blank" rel="noreferrer" >van Dijk Lab</a>)</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
               Advised by <a href="https://medicine.yale.edu/profile/david_vandijk/" target="_blank" rel="noreferrer" >Dr. David van Dijk</a>, Department of Computer Science and Internal Medicine
@@ -67,10 +67,10 @@ export default function About() {
           <p style={{ fontStyle: "italic", margin: 0 }} >Undergraduate Research Student</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
-              Advised by <a href="https://profiles.rice.edu/faculty/xia-ben-hu" target="_blank" rel="noreferrer" >Dr. Xia Hu</a>, Department of Computer Science, and <a href="https://medicine.yale.edu/profile/david_vandijk/" target="_blank" rel="noreferrer" >Dr. Xiaoqian Jiang</a>, UT Health. 
+              Advised by <a href="https://profiles.rice.edu/faculty/xia-ben-hu" target="_blank" rel="noreferrer" >Dr. Xia Hu</a>, Department of Computer Science, and <a href="https://www.uth.edu/stroke-institute/faculty/profile?id=6046af3e-3928-4ccf-9164-c46906f0c425" target="_blank" rel="noreferrer" >Dr. Xiaoqian Jiang</a>, UT Health. 
             </li>
             <li>
-              Feature-level interaction between nodes using novel attention-based message-passing framework for Graph Neural Networks
+            Vision-language representation learning on radiology images and clinical report data
             </li>
           </ul>
         </div>
