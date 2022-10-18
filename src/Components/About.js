@@ -63,8 +63,21 @@ export default function About() {
         </div>
 
         <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
+          <h3>Rice University, Houston, TX</h3>
+          <p style={{ fontStyle: "italic", margin: 0 }} >Undergraduate Research Student</p>
+          <ul style={{ listStyleType: "circle" }} >
+            <li>
+              Advised by <a href="https://profiles.rice.edu/faculty/xia-ben-hu" target="_blank" rel="noreferrer" >Dr. Xia Hu</a>, Department of Computer Science, and <a href="https://medicine.yale.edu/profile/david_vandijk/" target="_blank" rel="noreferrer" >Dr. Xiaoqian Jiang</a>, UT Health. 
+            </li>
+            <li>
+              Feature-level interaction between nodes using novel attention-based message-passing framework for Graph Neural Networks
+            </li>
+          </ul>
+        </div>
+
+        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
           <h3>Houston Methodist, Houston, TX</h3>
-          <p style={{ fontStyle: "italic", margin: 0 }} >Undergradaute Research Student</p>
+          <p style={{ fontStyle: "italic", margin: 0 }} >Undergraduate Research Student</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
               Advised by <a href="https://www.houstonmethodist.org/faculty/vittorio-cristini/" target="_blank" rel="noreferrer" >Dr. Vittorio Cristini</a> and <a href="https://www.houstonmethodist.org/faculty/prashant-dogra/" target="_blank" rel="noreferrer" >Dr. Prashant Dogra</a>, Department of 
@@ -82,7 +95,7 @@ export default function About() {
 
         <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
           <h3>University of Houston, Houston, TX</h3>
-          <p style={{ fontStyle: "italic", margin: 0 }} >Undergradaute Research Student</p>
+          <p style={{ fontStyle: "italic", margin: 0 }} >Undergraduate Research Student (<a href="https://www.hvnguyen.com/hula" target="_blank" rel="noreferrer" >HULA</a>)</p>
           <ul style={{ listStyleType: "circle" }} >
             <li>
               Advised by <a href="https://www.hvnguyen.com" target="_blank" rel="noreferrer" >Dr. Hien van Nguyen</a>, Department of Electrical and Computer Engineering
