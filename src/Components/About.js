@@ -21,8 +21,7 @@ export default function About() {
         <h1>About Me</h1>
         <p>
           I am a final year Computer Science undergraduate at the University of Houston,
-          and a visiting research student at Yale University supervised by 
-          <a href="https://medicine.yale.edu/profile/david_vandijk/" rel="noreferrer" >Dr. David van Dijk</a>. 
+          and a visiting research student at Yale University supervised by <a href="https://medicine.yale.edu/profile/david_vandijk/" target="_blank" rel="noreferrer" >Dr. David van Dijk</a>. 
           I'm interested in applying Machine Learning and Graph Neural Networks (GNNs)
           to real-world scientific problems. I am particularly interested in developing
           explainable AI (XAI) systems to bring more interpretability into deep
