@@ -20,8 +20,8 @@ export default function About() {
       <Grid item xs={12} lg={8} className="AboutColumn" >
         <h1>About Me</h1>
         <p>
-          I am a visiting research student at Yale University supervised by 
-          <a href="https://medicine.yale.edu/profile/david_vandijk/" target="_blank" 
+          I am a visiting research student at Yale University supervised 
+          by <a href="https://medicine.yale.edu/profile/david_vandijk/" target="_blank" 
           rel="noreferrer" >Dr. David van Dijk</a>. 
           I'm interested in applying Machine Learning and Graph Neural Networks (GNNs)
           to real-world scientific problems. I am particularly interested in developing
