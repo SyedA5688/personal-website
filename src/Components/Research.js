@@ -10,6 +10,7 @@ import morphset_diagram_img from '../images/research/MorphSet_diagram.png';
 import hdgan_diagram_img from '../images/research/hdgan_fig1.png';
 import dcsage_diagram_img from '../images/research/DCSAGE_Architecture_draft6.png';
 import ampnet_diagram_img from '../images/research/ampnet_operator_diagram.png';
+import lrclr_pipeline_img from '../images/research/LRCLR_pipeline_diagram_figure.png';
 
 export default function Research() {
   return (
@@ -81,7 +82,7 @@ export default function Research() {
       </Grid>
 
       <Grid container item xs={12} md={6} lg={4} className="ResearchColumn" >
-      <Card sx={{ mr: 2, ml: 2, maxHeight: '80vh' }}>
+        <Card sx={{ mr: 2, ml: 2, maxHeight: '80vh' }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               DCSAGE: Deep Learning-Derived Optimal Aviation Strategies to Control Pandemics
@@ -114,7 +115,7 @@ export default function Research() {
       </Grid>
 
       <Grid container item xs={12} md={6} lg={4} className="ResearchColumn" >
-      <Card sx={{ mr: 2, ml: 2, maxHeight: '80vh' }}>
+        <Card sx={{ mr: 2, ml: 2, maxHeight: '80vh' }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               AMPNet: Attention as Message Passing for Graph Neural Networks
@@ -141,6 +142,39 @@ export default function Research() {
           </CardContent>
           <CardActions>
             <a href="https://arxiv.org/pdf/2210.09475.pdf" target="_blank" rel="noreferrer" ><Button size="Small" >Paper</Button></a>
+            {/* <a href="" target="_blank" rel="noreferrer" ><Button size="Small" >Code</Button></a> */}
+          </CardActions>
+        </Card>
+      </Grid>
+
+      <Grid container item xs={12} md={6} lg={4} className="ResearchColumn" >
+        <Card sx={{ mr: 2, ml: 2, maxHeight: '80vh' }}>
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              Local Contrastive Learning for Medical Image Recognition
+            </Typography>
+            
+            <CardMedia
+              component="img"
+              height="140"
+              image={lrclr_pipeline_img}
+              alt="LRCLR pipeline diagram"
+              style={{ marginTop: '5px', marginBottom: '5px' }}
+            />
+
+            <Typography variant="body2" color="text.secondary">
+              Existing self-supervised frameworks for radiographic image analysis struggle 
+              to distinguish subtle differences caused by pathologies in local image 
+              regions of chest radiographs. Additionally, many frameworks do not provide 
+              interpretation between image regions and text, making it difficult for 
+              radiologists to assess predictions. In this work, we propose Local Region
+              Contrastive Learning (LRCLR), a finetuning framework that adds layers to 
+              pretrained models for significant image region selection as well as 
+              cross-modality interaction.
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <a href="https://arxiv.org/pdf/2303.14153.pdf" target="_blank" rel="noreferrer" ><Button size="Small" >Paper</Button></a>
             {/* <a href="" target="_blank" rel="noreferrer" ><Button size="Small" >Code</Button></a> */}
           </CardActions>
         </Card>

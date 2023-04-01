@@ -20,105 +20,28 @@ export default function About() {
       <Grid item xs={12} lg={8} className="AboutColumn" >
         <h1>About Me</h1>
         <p>
-          I am a visiting research student at Yale University supervised 
+          I am a Postgraduate Associate at Yale University, advised
           by <a href="https://medicine.yale.edu/profile/david_vandijk/" target="_blank" 
           rel="noreferrer" >Dr. David van Dijk</a>. 
           I'm interested in applying Machine Learning and Graph Neural Networks (GNNs)
           to real-world scientific problems. I am particularly interested in developing
           explainable AI (XAI) systems to bring more interpretability into deep
-          learning systems. My prior research work revolves around developing 
-          computationally efficient semi-supervised models for histopathology image 
-          generation and segmentation, as well as explainability frameworks for 
-          spatiotemporal GNNs.
+          learning systems. My prior research work includes efficient semi-supervised 
+          models for medical image generation and segmentation, as well as explainability 
+          frameworks for spatiotemporal GNNs.
         </p>
         <p>
-          Previously, I have had the fortune of working as an undergraduate research student 
-          at the University of Houston and Houston Methodist. For more information, visit
-          the <a href="https://syedarizvi.com/research" rel="noreferrer" >Research</a> tab to view my previous research work.
+          In the past, I have had the fortune of working as an undergraduate research student 
+          at the University of Houston, Houston Methodist, and Rice University. For more 
+          information about my previous work, please visit
+          the <a href="https://syedarizvi.com/research" rel="noreferrer" >Research</a> tab.
         </p>
         <h1>Contact Information</h1>
         <p>
           Name: Syed Asad Rizvi <br/>
-          Inquiries: asad5688 [at] gmail [dot] com <br/>
-          Location: Houston, TX
+          Inquiries: syed [dot] rizvi [at] yale [dot] edu <br/>
+          Location: New Haven, CT
         </p>
-      </Grid>
-
-      <Grid item xs={12} className="ExperienceContainer" >
-        <div style={{ borderBottomWidth: 1, borderBottomStyle: "solid", borderBottomColor: "black", width: "100%" }} >
-          <h1>Professional and Research Experience Highlights</h1>
-        </div>
-        
-        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
-          <h3>Yale University, New Haven, Connecticut</h3>
-          <p style={{ fontStyle: "italic", margin: 0 }} >Undergraduate Research Student (<a href="https://www.vandijklab.org" target="_blank" rel="noreferrer" >van Dijk Lab</a>)</p>
-          <ul style={{ listStyleType: "circle" }} >
-            <li>
-              Advised by <a href="https://medicine.yale.edu/profile/david_vandijk/" target="_blank" rel="noreferrer" >Dr. David van Dijk</a>, Department of Computer Science and Internal Medicine
-            </li>
-            <li>
-              Feature-level interaction between nodes using novel attention-based message-passing framework for Graph Neural Networks
-            </li>
-          </ul>
-        </div>
-
-        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
-          <h3>Rice University, Houston, TX</h3>
-          <p style={{ fontStyle: "italic", margin: 0 }} >Undergraduate Research Student</p>
-          <ul style={{ listStyleType: "circle" }} >
-            <li>
-              Advised by <a href="https://profiles.rice.edu/faculty/xia-ben-hu" target="_blank" rel="noreferrer" >Dr. Xia Hu</a>, Department of Computer Science, and <a href="https://www.uth.edu/stroke-institute/faculty/profile?id=6046af3e-3928-4ccf-9164-c46906f0c425" target="_blank" rel="noreferrer" >Dr. Xiaoqian Jiang</a>, UT Health. 
-            </li>
-            <li>
-            Vision-language representation learning on radiology images and clinical report data
-            </li>
-          </ul>
-        </div>
-
-        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
-          <h3>Houston Methodist, Houston, TX</h3>
-          <p style={{ fontStyle: "italic", margin: 0 }} >Undergraduate Research Student</p>
-          <ul style={{ listStyleType: "circle" }} >
-            <li>
-              Advised by <a href="https://www.houstonmethodist.org/faculty/vittorio-cristini/" target="_blank" rel="noreferrer" >Dr. Vittorio Cristini</a> and <a href="https://www.houstonmethodist.org/faculty/prashant-dogra/" target="_blank" rel="noreferrer" >Dr. Prashant Dogra</a>, Department of 
-              Mathematics in Medicine
-            </li>
-            <li>
-              Spatiotemporal Graph Neural Network architecture for COVID-19 pandemic forecasting 
-              on dynamic infection and international flight data
-            </li>
-            <li>
-              Perturbation-based explainability framework for sensitivity analysis in spatiotemporal GNNs
-            </li>
-          </ul>
-        </div>
-
-        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
-          <h3>University of Houston, Houston, TX</h3>
-          <p style={{ fontStyle: "italic", margin: 0 }} >Undergraduate Research Student (<a href="https://www.hvnguyen.com/hula" target="_blank" rel="noreferrer" >HULA</a>)</p>
-          <ul style={{ listStyleType: "circle" }} >
-            <li>
-              Advised by <a href="https://www.hvnguyen.com" target="_blank" rel="noreferrer" >Dr. Hien van Nguyen</a>, Department of Electrical and Computer Engineering
-            </li>
-            <li>
-              Label-efficient frameworks for case-level classification on histopathology data
-            </li>
-            <li>
-              Computationally efficient semi-supervised medical image generation and segmentation
-            </li>
-          </ul>
-        </div>
-
-        <div style={{ textAlign: 'start', paddingTop: "2vh" }} >
-          <h3>Amazon, Austin, TX</h3>
-          <p style={{ fontStyle: "italic", margin: 0 }} >Software Development Intern</p>
-          <ul style={{ listStyleType: "circle" }} >
-            <li>
-              Developed an independent launcher application for starting customer support screen 
-              sharing sessions on Amazon-built devices using the Spring Java framework.
-            </li>
-          </ul>
-        </div>
       </Grid>
 
       <Grid item xs={12} className="TimelineContainer" >
@@ -135,13 +58,27 @@ export default function About() {
         <div style={{ marginBottom: '15vh' }} >
           <Timeline>
             <TimelineItem>
+              <TimelineContent>
+                <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-end' }} >
+                  Submitted Local Contrastive Learning project to AMIA 2023 conference.
+                </p>
+              </TimelineContent>
+              <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineOppositeContent>
-                <Typography color="textSecondary">July 2022</Typography>
+                <Typography color="textSecondary" style={{ display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
+                  March 2023
+                </Typography>
+              </TimelineOppositeContent>
+            </TimelineItem>
+
+            <TimelineItem>
+              <TimelineOppositeContent>
+                <Typography color="textSecondary">December 2022</Typography>
               </TimelineOppositeContent>
               <TimelineSeparator><TimelineDot color="primary" /><TimelineConnector /></TimelineSeparator>
               <TimelineContent>
                 <p style={{ fontSize: 18, display: 'flex', flexDirection: 'row', justifyContent:'flex-start' }} >
-                  Submitted Histopathology DatasetGAN research project to IEEE Signal Processing 
+                  Histopathology DatasetGAN research project accepted to 2022 IEEE Signal Processing 
                   in Medicine and Biology conference.
                 </p>
               </TimelineContent>
