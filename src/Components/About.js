@@ -20,15 +20,13 @@ export default function About() {
       <Grid item xs={12} lg={8} className="AboutColumn" >
         <h1>About Me</h1>
         <p>
-          I am a Postgraduate Associate at Yale University, advised
-          by <a href="https://medicine.yale.edu/profile/david_vandijk/" target="_blank" 
-          rel="noreferrer" >Dr. David van Dijk</a>. 
-          I'm interested in applying Machine Learning and Graph Neural Networks (GNNs)
-          to real-world scientific problems. I am particularly interested in developing
-          explainable AI (XAI) systems to bring more interpretability into deep
-          learning systems. My prior research work includes efficient semi-supervised 
-          models for medical image generation and segmentation, as well as explainability 
-          frameworks for spatiotemporal GNNs.
+          I am a first year PhD student in
+          the <a href="https://cpsc.yale.edu/" target="_blank" rel="noreferrer" >Department of Computer Science</a> at <a href="https://www.yale.edu/" target="_blank" rel="noreferrer" >Yale University</a>, 
+          advised by Prof. <a href="https://medicine.yale.edu/profile/david_vandijk/" target="_blank" 
+          rel="noreferrer" >David van Dijk</a>. 
+          I'm interested in applying Large Language Models (LLMs) and Graph Neural Networks (GNNs)
+          to real-world scientific problems, particularly in biomedical applications such as single-cell 
+          genomics. My prior research work includes medical image segmentation using Convolutional Neural Networks (CNNs), as well as spatiotemporal forecasting using GNNs.
         </p>
         <p>
           In the past, I have had the fortune of working as an undergraduate research student 

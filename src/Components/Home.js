@@ -13,10 +13,11 @@ export default function Home() {
         <div style={{ borderBottomWidth: 2, borderBottomColor: "grey", borderBottomStyle: "solid" }} >
           <p style={{ fontSize: 65, fontWeight: "bold", fontFamily: "Castoro" }} >Syed Asad Rizvi</p>
           <p>
-            Postgraduate Associate researcher at Yale University.
+            Graduate student at Yale University.
           </p>
           <p>
-            I'm interested in solving real-world problems using Machine Learning and Graph Representation Learning techniques.
+            I'm interested in applying Large Language Models (LLMs) and Graph Representation Learning techniques 
+            to real-world data.
           </p>
           <p>
             Click around to find out more about me, or check out my
